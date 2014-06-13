@@ -1,0 +1,77 @@
+{
+   "IDS_BADSWIPE_LOW_QUALITY": {
+      "message": "Poteg slabe kakovosti."
+   },
+   "IDS_BADSWIPE_NO_MATCH": {
+      "message": "Ni ujemanja."
+   },
+   "IDS_BADSWIPE_TOO_FAST": {
+      "message": "Poteg prehitro."
+   },
+   "IDS_BADSWIPE_TOO_HIGH": {
+      "message": "Poteg previsoko."
+   },
+   "IDS_BADSWIPE_TOO_LEFT": {
+      "message": "Poteg preve\u010D v levo."
+   },
+   "IDS_BADSWIPE_TOO_LOW": {
+      "message": "Poteg prenizko."
+   },
+   "IDS_BADSWIPE_TOO_RIGHT": {
+      "message": "Poteg preve\u010D v desno."
+   },
+   "IDS_BADSWIPE_TOO_SHORT": {
+      "message": "Poteg prekratko."
+   },
+   "IDS_BADSWIPE_TOO_SKEWED": {
+      "message": "Poteg preve\u010D po\u0161evno."
+   },
+   "IDS_BADSWIPE_TOO_SLOW": {
+      "message": "Poteg prepo\u010Dasi."
+   },
+   "IDS_ENTER_PASSWORD_NOTICE": {
+      "message": "Prijavite se z glavnim geslom."
+   },
+   "IDS_INCORRECT_PASSWORD": {
+      "message": "Va\u0161e geslo ni pravilno."
+   },
+   "IDS_LEARN_MORE": {
+      "message": "ve\u010D"
+   },
+   "IDS_LOGIN_IN": {
+      "message": "Prijava"
+   },
+   "IDS_NEVER_FOR_THIS_SITE": {
+      "message": "Nikoli za to spletno mesto"
+   },
+   "IDS_NO_FP_FOCUS": {
+      "message": "Preverjanje prstnih odtisov se je zaustavilo. \u010Ce \u017Eelite nadaljevati, kliknite tukaj."
+   },
+   "IDS_SAVE_PASSWORD": {
+      "message": "Zapomni si geslo"
+   },
+   "IDS_SAVE_PASSWORD_NOTICE": {
+      "message": "Ali \u017Eelite, da si SimplePass zapomni va\u0161e geslo za to spletno mesto?"
+   },
+   "IDS_SWIPE_FINGER": {
+      "message": "Povlecite prst \u010Dez tipalo, da se prijavite v SimplePass."
+   },
+   "IDS_TYPE_MASTER_PASSWORD": {
+      "message": "Vnesite glavno geslo"
+   },
+   "IDS_USE_WINDOWS_PASSWORD": {
+      "message": "Ali vnesite geslo sistema Windows"
+   },
+   "editText": {
+      "message": "Uredi spletno kartico"
+   },
+   "reportText": {
+      "message": "Poro\u010Daj o zapletu"
+   },
+   "runAppText": {
+      "message": "Odpri SimplePass..."
+   },
+   "storeText": {
+      "message": "App Store"
+   }
+}

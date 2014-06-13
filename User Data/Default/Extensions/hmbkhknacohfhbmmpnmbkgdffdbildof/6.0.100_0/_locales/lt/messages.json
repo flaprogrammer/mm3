@@ -1,0 +1,77 @@
+{
+   "IDS_BADSWIPE_LOW_QUALITY": {
+      "message": "Braukiate netinkamai."
+   },
+   "IDS_BADSWIPE_NO_MATCH": {
+      "message": "Atitikmen\u0173 n\u0117ra."
+   },
+   "IDS_BADSWIPE_TOO_FAST": {
+      "message": "Braukiate per greitai."
+   },
+   "IDS_BADSWIPE_TOO_HIGH": {
+      "message": "Braukiate per auk\u0161tai."
+   },
+   "IDS_BADSWIPE_TOO_LEFT": {
+      "message": "Braukiate kair\u0117je."
+   },
+   "IDS_BADSWIPE_TOO_LOW": {
+      "message": "Braukiate per \u017Eemai."
+   },
+   "IDS_BADSWIPE_TOO_RIGHT": {
+      "message": "Braukiate de\u0161in\u0117je."
+   },
+   "IDS_BADSWIPE_TOO_SHORT": {
+      "message": "Braukiate per trumpai."
+   },
+   "IDS_BADSWIPE_TOO_SKEWED": {
+      "message": "Braukiate \u012Fstri\u017Eai."
+   },
+   "IDS_BADSWIPE_TOO_SLOW": {
+      "message": "Braukiate per l\u0117tai."
+   },
+   "IDS_ENTER_PASSWORD_NOTICE": {
+      "message": "Prisijunkite naudodami pagrindin\u012F savo slapta\u017Eod\u012F."
+   },
+   "IDS_INCORRECT_PASSWORD": {
+      "message": "Neteisingas slapta\u017Eodis."
+   },
+   "IDS_LEARN_MORE": {
+      "message": "su\u017Einokite daugiau"
+   },
+   "IDS_LOGIN_IN": {
+      "message": "Prisijungti"
+   },
+   "IDS_NEVER_FOR_THIS_SITE": {
+      "message": "Niekada \u0161ioje svetain\u0117je"
+   },
+   "IDS_NO_FP_FOCUS": {
+      "message": "Pir\u0161to atspaudo tikrinimas pristabdytas. Nor\u0117dami t\u0119sti, spustel\u0117kite \u010Dia."
+   },
+   "IDS_SAVE_PASSWORD": {
+      "message": "Atsiminti slapta\u017Eod\u012F"
+   },
+   "IDS_SAVE_PASSWORD_NOTICE": {
+      "message": "Ar norite, kad \u201ESimplePass\u201C atsimint\u0173 \u0161ios svetain\u0117s slapta\u017Eod\u012F?"
+   },
+   "IDS_SWIPE_FINGER": {
+      "message": "Nor\u0117dami prisijungti prie \u201ESimplePass\u201C, perbraukite pir\u0161tu jutikl\u012F."
+   },
+   "IDS_TYPE_MASTER_PASSWORD": {
+      "message": "\u012Eveskite pagrindin\u012F slapta\u017Eod\u012F"
+   },
+   "IDS_USE_WINDOWS_PASSWORD": {
+      "message": "Arba \u012Fveskite \u201EWindows\u201C slapta\u017Eod\u012F"
+   },
+   "editText": {
+      "message": "Redaguoti \u017Einiatinklio kortel\u0119"
+   },
+   "reportText": {
+      "message": "Prane\u0161ti apie problem\u0105"
+   },
+   "runAppText": {
+      "message": "Atidaryti \u201ESimplePass\u201C..."
+   },
+   "storeText": {
+      "message": "App Store"
+   }
+}

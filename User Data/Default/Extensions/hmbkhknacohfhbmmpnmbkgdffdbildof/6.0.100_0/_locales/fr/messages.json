@@ -1,0 +1,77 @@
+{
+   "IDS_BADSWIPE_LOW_QUALITY": {
+      "message": "Passage du doigt erron\u00E9, mauvaise qualit\u00E9."
+   },
+   "IDS_BADSWIPE_NO_MATCH": {
+      "message": "Pas de correspondance."
+   },
+   "IDS_BADSWIPE_TOO_FAST": {
+      "message": "Passage du doigt trop rapide."
+   },
+   "IDS_BADSWIPE_TOO_HIGH": {
+      "message": "Passage du doigt trop haut."
+   },
+   "IDS_BADSWIPE_TOO_LEFT": {
+      "message": "Passage du doigt trop \u00E0 gauche."
+   },
+   "IDS_BADSWIPE_TOO_LOW": {
+      "message": "Passage du doigt trop bas."
+   },
+   "IDS_BADSWIPE_TOO_RIGHT": {
+      "message": "Passage du doigt trop \u00E0 droite."
+   },
+   "IDS_BADSWIPE_TOO_SHORT": {
+      "message": "Passage du doigt trop court."
+   },
+   "IDS_BADSWIPE_TOO_SKEWED": {
+      "message": "Passage du doigt trop oblique."
+   },
+   "IDS_BADSWIPE_TOO_SLOW": {
+      "message": "Passage du doigt trop lent."
+   },
+   "IDS_ENTER_PASSWORD_NOTICE": {
+      "message": "Connectez-vous \u00E0 l'aide de votre mot de passe ma\u00EEtre."
+   },
+   "IDS_INCORRECT_PASSWORD": {
+      "message": "Votre mot de passe est incorrect."
+   },
+   "IDS_LEARN_MORE": {
+      "message": "en savoir plus"
+   },
+   "IDS_LOGIN_IN": {
+      "message": "Connexion"
+   },
+   "IDS_NEVER_FOR_THIS_SITE": {
+      "message": "Jamais pour ce site"
+   },
+   "IDS_NO_FP_FOCUS": {
+      "message": "V\u00E9rification de l'empreinte digitale en pause. Cliquez ici pour continuer."
+   },
+   "IDS_SAVE_PASSWORD": {
+      "message": "M\u00E9moriser le mot de passe"
+   },
+   "IDS_SAVE_PASSWORD_NOTICE": {
+      "message": "Souhaitez-vous que SimplePass se souvienne de votre mot de passe pour ce site\u00A0?"
+   },
+   "IDS_SWIPE_FINGER": {
+      "message": "Passez votre doigt sur le capteur pour vous connecter avec SimplePass."
+   },
+   "IDS_TYPE_MASTER_PASSWORD": {
+      "message": "Tapez le mot de passe principal"
+   },
+   "IDS_USE_WINDOWS_PASSWORD": {
+      "message": "Ou tapez le mot de passe Windows"
+   },
+   "editText": {
+      "message": "Modifier la carte\u00A0Web"
+   },
+   "reportText": {
+      "message": "Rapporter un probl\u00E8me"
+   },
+   "runAppText": {
+      "message": "Ouvrir SimplePass..."
+   },
+   "storeText": {
+      "message": "App Store"
+   }
+}

@@ -1,0 +1,31 @@
+{
+   "background_page": "background.html",
+   "browser_action": {
+      "default_icon": "images/logo_128.png",
+      "default_title": "HP SimplePass",
+      "popup": "menu.html"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "config_helper.js", "websiteLogon.js", "websiteLogonOTP.js", "OTPList.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "en",
+   "description": "HP SimplePass Website Logon Extension.",
+   "homepage_url": "http://www.authentec.com/",
+   "icons": {
+      "128": "images/logo_128.png",
+      "16": "images/logo_16.png",
+      "32": "images/logo_32.png",
+      "48": "images/logo_48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDBWdSBbhmXwGfLWsKJTOTz34goCx5ZoQjEm+VjcCX0TAb/noUwfG9rFbEiMAtZWltrg1rItnFLRbIKP6mjxThDm9ZCQ8JEGRjblTwdbmjw1FSaDkzRlt1nveAla2Fwu0Y17bMRB2eSKEcQ40qvEwBtizImCB3GVYWZWdNrnhuvHQIDAQAB",
+   "name": "Website Logon",
+   "permissions": [ "tabs" ],
+   "plugins": [ {
+      "path": "npgcwloplugin.dll",
+      "public": true
+   } ],
+   "version": "6.0.100"
+}

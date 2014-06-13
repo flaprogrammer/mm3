@@ -1,0 +1,77 @@
+{
+   "IDS_BADSWIPE_LOW_QUALITY": {
+      "message": "A\u0163i trecut cu degetul gre\u015Fit, calitate sc\u0103zut\u0103."
+   },
+   "IDS_BADSWIPE_NO_MATCH": {
+      "message": "Nicio coresponden\u0163\u0103."
+   },
+   "IDS_BADSWIPE_TOO_FAST": {
+      "message": "A\u0163i trecut cu degetul prea repede."
+   },
+   "IDS_BADSWIPE_TOO_HIGH": {
+      "message": "A\u0163i trecut cu degetul prea sus."
+   },
+   "IDS_BADSWIPE_TOO_LEFT": {
+      "message": "A\u0163i trecut cu degetul prea la st\u00E2nga."
+   },
+   "IDS_BADSWIPE_TOO_LOW": {
+      "message": "A\u0163i trecut cu degetul prea jos."
+   },
+   "IDS_BADSWIPE_TOO_RIGHT": {
+      "message": "A\u0163i trecut cu degetul prea la dreapta."
+   },
+   "IDS_BADSWIPE_TOO_SHORT": {
+      "message": "A\u0163i trecut cu degetul prea scurt."
+   },
+   "IDS_BADSWIPE_TOO_SKEWED": {
+      "message": "A\u0163i trecut cu degetul \u00EEnclinat."
+   },
+   "IDS_BADSWIPE_TOO_SLOW": {
+      "message": "A\u0163i trecut cu degetul prea lent."
+   },
+   "IDS_ENTER_PASSWORD_NOTICE": {
+      "message": "Autentifica\u0163i-v\u0103 cu parola principal\u0103."
+   },
+   "IDS_INCORRECT_PASSWORD": {
+      "message": "Parola este incorect\u0103."
+   },
+   "IDS_LEARN_MORE": {
+      "message": "afla\u0163i mai mult"
+   },
+   "IDS_LOGIN_IN": {
+      "message": "Conectare"
+   },
+   "IDS_NEVER_FOR_THIS_SITE": {
+      "message": "Niciodat\u0103 pentru acest site"
+   },
+   "IDS_NO_FP_FOCUS": {
+      "message": "Verificarea amprentei este suspendat\u0103. Face\u0163i clic aici pentru a continua."
+   },
+   "IDS_SAVE_PASSWORD": {
+      "message": "Re\u0163ine parola"
+   },
+   "IDS_SAVE_PASSWORD_NOTICE": {
+      "message": "Dori\u0163i ca SimplePass s\u0103 re\u0163in\u0103 parola pentru acest site?"
+   },
+   "IDS_SWIPE_FINGER": {
+      "message": "Trece\u0163i degetul peste senzor pentru conectare cu SimplePass."
+   },
+   "IDS_TYPE_MASTER_PASSWORD": {
+      "message": "Introduce\u0163i parola principal\u0103"
+   },
+   "IDS_USE_WINDOWS_PASSWORD": {
+      "message": "Sau introduce\u0163i parola de Windows"
+   },
+   "editText": {
+      "message": "Editare card Web"
+   },
+   "reportText": {
+      "message": "Raportare problem\u0103"
+   },
+   "runAppText": {
+      "message": "Deschidere SimplePass..."
+   },
+   "storeText": {
+      "message": "App Store"
+   }
+}

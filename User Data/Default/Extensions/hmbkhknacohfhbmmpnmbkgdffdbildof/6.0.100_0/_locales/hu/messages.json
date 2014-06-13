@@ -1,0 +1,77 @@
+{
+   "IDS_BADSWIPE_LOW_QUALITY": {
+      "message": "Nem megfelel\u0151 h\u00FAz\u00E1s, rossz min\u0151s\u00E9g."
+   },
+   "IDS_BADSWIPE_NO_MATCH": {
+      "message": "Nincs tal\u00E1lat."
+   },
+   "IDS_BADSWIPE_TOO_FAST": {
+      "message": "T\u00FAl gyorsan h\u00FAzta."
+   },
+   "IDS_BADSWIPE_TOO_HIGH": {
+      "message": "T\u00FAl magasan h\u00FAzta."
+   },
+   "IDS_BADSWIPE_TOO_LEFT": {
+      "message": "T\u00FAl balra h\u00FAzta."
+   },
+   "IDS_BADSWIPE_TOO_LOW": {
+      "message": "T\u00FAl alacsonyan h\u00FAzta."
+   },
+   "IDS_BADSWIPE_TOO_RIGHT": {
+      "message": "T\u00FAl jobbra h\u00FAzta."
+   },
+   "IDS_BADSWIPE_TOO_SHORT": {
+      "message": "T\u00FAl r\u00F6viden h\u00FAzta."
+   },
+   "IDS_BADSWIPE_TOO_SKEWED": {
+      "message": "T\u00FAl ferd\u00E9n h\u00FAzta."
+   },
+   "IDS_BADSWIPE_TOO_SLOW": {
+      "message": "T\u00FAl lassan h\u00FAzta."
+   },
+   "IDS_ENTER_PASSWORD_NOTICE": {
+      "message": "Jelentkezzen be a mesterjelszav\u00E1val."
+   },
+   "IDS_INCORRECT_PASSWORD": {
+      "message": "A jelsz\u00F3 nem megfelel\u0151."
+   },
+   "IDS_LEARN_MORE": {
+      "message": "tov\u00E1bbi inform\u00E1ci\u00F3"
+   },
+   "IDS_LOGIN_IN": {
+      "message": "Bejelentkez\u00E9s"
+   },
+   "IDS_NEVER_FOR_THIS_SITE": {
+      "message": "Ezen a webhelyen soha"
+   },
+   "IDS_NO_FP_FOCUS": {
+      "message": "Az ujjlenyomat-ellen\u0151rz\u00E9s sz\u00FCneteltetve. A folytat\u00E1shoz kattintson ide."
+   },
+   "IDS_SAVE_PASSWORD": {
+      "message": "Jelsz\u00F3 megjegyz\u00E9se"
+   },
+   "IDS_SAVE_PASSWORD_NOTICE": {
+      "message": "Szeretn\u00E9, hogy a SimplePass megjegyezze az ehhez a webhelyhez tartoz\u00F3 jelszav\u00E1t?"
+   },
+   "IDS_SWIPE_FINGER": {
+      "message": "H\u00FAzza v\u00E9gig az ujj\u00E1t az olvas\u00F3n a SimplePass szolg\u00E1ltat\u00E1ssal t\u00F6rt\u00E9n\u0151 bejelentkez\u00E9shez."
+   },
+   "IDS_TYPE_MASTER_PASSWORD": {
+      "message": "\u00CDrja be a f\u0151 jelszav\u00E1t"
+   },
+   "IDS_USE_WINDOWS_PASSWORD": {
+      "message": "Vagy \u00EDrja be a Windows-jelsz\u00F3t"
+   },
+   "editText": {
+      "message": "Webk\u00E1rtya szerkeszt\u00E9se"
+   },
+   "reportText": {
+      "message": "Hiba jelent\u00E9se"
+   },
+   "runAppText": {
+      "message": "A SimplePass megnyit\u00E1sa..."
+   },
+   "storeText": {
+      "message": "App Store"
+   }
+}

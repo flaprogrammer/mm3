@@ -1,0 +1,77 @@
+﻿<script src="../js/jquery.min.js"></script>
+ <script src="../js/jquery-ui.min.js"></script>
+	   <script src="../js/main.js"></script>
+	   <link href="../css/1.css" rel="stylesheet">
+	   <link href="../css/dop.css" rel="stylesheet">
+ 
+
+	
+
+	<div class="content_block"> 
+		
+			
+			
+	
+		<div class="task_text"> Укы, биремнәрне үтә.  </div>
+
+		<div class="content_choose"></div>
+            <div id="good"  class="make_mark"> <img src="../img/good.png" width=300 height=250></div>
+			<div id="bad" class="make_mark" ><img src="../img/bad.png" width=300 height=250></div>
+	
+	</div>
+	
+		
+<script>
+
+var truth = 1;
+var all = ["$ХӘТЕРЕҢДӘ КАЛДЫР! Ике тамыр кушылып ясалган сүз кушма сүз дип атала: ак-кош, көн- батыш, баш-кала. Кушма сүзләр һәрвакыт кушылып языла."];
+var metka = 0;
+
+all.sort(function() {return .7 - Math.random();});
+
+	var str1='<div class="guess_block" style="width:500px;">';
+			var str2='</div>';
+			var res="";
+		for(var i = 0; i<all.length; i++){
+			if(all[i][0] == "$"){res = res + str1 + all[i].substr(1,99999) + str2;}
+			else{res = res + str1 + all[i] + str2;}
+		}
+		
+		document.getElementsByClassName('content_choose')[0].innerHTML = res;
+
+$(document).ready(function(){
+
+		$(".guess_block").click(function(){
+			//если все верно ответил тогда
+		if(true){
+			
+			//красим
+			this.style.backgroundColor = "#49CC44";
+			// показываем хорошо
+			
+			document.getElementById('good').style.display = "block";
+			setTimeout(function(){document.getElementById('good').style.display = "none";},2000);
+			
+			metka++;
+			
+			// если все правильно то переходим на след задание
+			if(metka  >= truth){
+		
+				
+			}
+		}
+				
+		// если нет то красим в красный
+		else{
+		this.style.backgroundColor = "#EB3B75";
+		
+		document.getElementById('bad').style.display = "block";
+		setTimeout(function(){document.getElementById('bad').style.display = "none";},2000);
+		
+		}
+		
+		});	
+		
+});
+
+</script>

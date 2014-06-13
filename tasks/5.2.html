@@ -1,0 +1,143 @@
+﻿<script src="../js/jquery.min.js"></script>
+ <script src="../js/jquery-ui.min.js"></script>
+	   <script src="../js/main.js"></script>
+<script src="list.js"></script>
+  <link href="../css/2.css" rel="stylesheet">
+  <link href="../css/dop.css" rel="stylesheet">
+	 
+
+		
+
+	<div class="content_block"> 
+
+		<div class="task_text">Кирәкле сүзләрне куй.</div>
+	<div class="taskcont"><!-- cont start -->
+	
+	<div class="left_text">Сыйфат предметның </div>
+	
+	<div class="middle_text"> 
+	
+	<div class="empty_place"> ... </div>
+	<div class="empty_place"> ... </div>
+	
+	</div>
+	
+
+	<div class="right_text"> 
+	
+	<div class="full_text"> <span>билгеләрен белдерә.</span> </div>
+
+	
+	</div>
+	
+	</div><!-- cont end -->
+		
+	<div id="container">
+	</div>
+	
+	<div class="kvakva" >
+			
+			<div id="good"  class="make_mark" > <img src="../img/good.png" width=300 height=250></div>
+			<div id="bad" class="make_mark" ><img src="../img/bad.png" width=300 height=250></div>
+		</div>
+
+	</div>
+
+
+	
+<script>
+
+var currentFileAll = location.href.match(/[^/]+\.html/i)[0];
+var currentFile = currentFileAll.substr(0,currentFileAll.length-5);
+shuffle = function(o){
+for(var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
+return o;
+}
+
+
+   Object.size = function(obj) {
+    var size = 0, key;
+    for (key in obj) {
+        if (obj.hasOwnProperty(key)) size++;
+    }
+    return size;
+};
+var metka = 0;
+
+var input = ["төрле", "берничә", "бер"];
+var randmas2 = [];
+for(var i=0; i<input.length; i++) {
+	randmas2.push(i);
+}
+var randmas = shuffle(randmas2);
+var all = [];
+for(var i=0; i<input.length; i++) {
+	all[i] = input[randmas[i]];
+}
+var metka = 0;
+var size = all.length;
+size1 = size;
+var p ="";
+if(size1 > 1) p = "<br>" ;
+
+
+		// генерируем то что нужно перетащить
+	var str1='<div class="guess_block" ';
+			var str2='</div>';
+			var res="";
+		for(var i = 0; i< size; i++){
+			res = res + str1 + 'id ="'+i +'">' + all[i] + str2;
+		}
+		document.getElementById('container').innerHTML = res;
+		
+		// генерируем то что 
+		
+	var str11='<div class="empty_place" ';
+			var str22='</div>';
+			var res1="";
+		for(var i = 0; i< 1; i++){
+			res1 = res1 + str11 + 'id ="'+'t'+randmas.indexOf(i) +'">' +  str22 + p;
+		}
+		document.getElementsByClassName('middle_text')[0].innerHTML = res1;
+
+		
+	$(function(){
+	$( ".guess_block" ).draggable({revertDuration:2000,revert: "valid"});
+	
+    $( ".empty_place" ).droppable({
+      drop: function( event, ui ) {
+		if($(this).attr("id")[1] == ui.draggable.attr("id")){
+			$('#'+ui.draggable.attr('id')).draggable({ revert: "invalid"}).draggable( "disable" );
+						document.getElementById(ui.draggable.attr('id')).style.border = "none";
+			document.getElementById(ui.draggable.attr('id')).style.background = "none";
+			metka++;	
+				
+			document.getElementById('good').style.display = "block";
+			setTimeout(function(){document.getElementById('good').style.display = "none";},2000);
+			
+			
+				if(metka  >= 1){
+					if(list[currentFile]) {
+						setTimeout(function(){location.href = list[currentFile]+".html";},5000);document.getElementById('good').style.display = "block";
+					}
+				}
+			}
+			  else{
+			  document.getElementById('bad').style.display = "block";setTimeout(function(){document.getElementById('bad').style.display = "none";},2000);
+			  }
+      }
+    });
+	
+	$( "body" ).droppable({
+      drop: function( event, ui ) {
+		
+	  }
+	});
+});
+   
+
+ 
+
+// Get the size of an object
+
+  </script>

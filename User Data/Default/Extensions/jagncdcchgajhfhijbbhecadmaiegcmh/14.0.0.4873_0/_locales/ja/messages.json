@@ -1,0 +1,14 @@
+{
+   "ExtensionDescription": {
+      "description": "",
+      "message": ""
+   },
+   "ExtensionName": {
+      "description": "\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u30AD\u30FC\u30DC\u30FC\u30C9",
+      "message": "\u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u30AD\u30FC\u30DC\u30FC\u30C9"
+   },
+   "TooltipText": {
+      "description": "",
+      "message": "\u5165\u529B\u60C5\u5831\u306E\u6F0F\u3048\u3044\u9632\u6B62\u304C\u6709\u52B9\u3067\u3059"
+   }
+}

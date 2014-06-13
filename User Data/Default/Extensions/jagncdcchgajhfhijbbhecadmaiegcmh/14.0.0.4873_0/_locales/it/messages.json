@@ -1,0 +1,14 @@
+{
+   "ExtensionDescription": {
+      "description": "",
+      "message": ""
+   },
+   "ExtensionName": {
+      "description": "Tastiera Virtuale",
+      "message": "Tastiera Virtuale"
+   },
+   "TooltipText": {
+      "description": "",
+      "message": "Immissione sicura tramite tastiera abilitata"
+   }
+}

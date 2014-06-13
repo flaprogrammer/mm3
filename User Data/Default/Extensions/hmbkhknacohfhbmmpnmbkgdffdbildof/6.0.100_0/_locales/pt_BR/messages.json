@@ -1,0 +1,77 @@
+{
+   "IDS_BADSWIPE_LOW_QUALITY": {
+      "message": "Deslize insatisfat\u00F3rio. Baixa qualidade."
+   },
+   "IDS_BADSWIPE_NO_MATCH": {
+      "message": "Nenhuma correspond\u00EAncia."
+   },
+   "IDS_BADSWIPE_TOO_FAST": {
+      "message": "Dedo deslizado muito r\u00E1pido."
+   },
+   "IDS_BADSWIPE_TOO_HIGH": {
+      "message": "Posi\u00E7\u00E3o muito alta."
+   },
+   "IDS_BADSWIPE_TOO_LEFT": {
+      "message": "Posi\u00E7\u00E3o muito para a esquerda."
+   },
+   "IDS_BADSWIPE_TOO_LOW": {
+      "message": "Posi\u00E7\u00E3o muito baixa."
+   },
+   "IDS_BADSWIPE_TOO_RIGHT": {
+      "message": "Posi\u00E7\u00E3o muito para a direita."
+   },
+   "IDS_BADSWIPE_TOO_SHORT": {
+      "message": "Resultado muito curto."
+   },
+   "IDS_BADSWIPE_TOO_SKEWED": {
+      "message": "Dedo muito inclinado."
+   },
+   "IDS_BADSWIPE_TOO_SLOW": {
+      "message": "Dedo deslizado muito devagar."
+   },
+   "IDS_ENTER_PASSWORD_NOTICE": {
+      "message": "Fa\u00E7a logon com sua senha mestra."
+   },
+   "IDS_INCORRECT_PASSWORD": {
+      "message": "Sua senha n\u00E3o est\u00E1 correta."
+   },
+   "IDS_LEARN_MORE": {
+      "message": "saiba mais"
+   },
+   "IDS_LOGIN_IN": {
+      "message": "Logon"
+   },
+   "IDS_NEVER_FOR_THIS_SITE": {
+      "message": "Nunca para este site"
+   },
+   "IDS_NO_FP_FOCUS": {
+      "message": "A verifica\u00E7\u00E3o da impress\u00E3o digital foi pausada. Clique aqui para continuar."
+   },
+   "IDS_SAVE_PASSWORD": {
+      "message": "Lembrar Senha"
+   },
+   "IDS_SAVE_PASSWORD_NOTICE": {
+      "message": "Deseja que o SimplePass lembre sua senha para este site?"
+   },
+   "IDS_SWIPE_FINGER": {
+      "message": "Deslize seu dedo sobre o sensor para fazer logon com o SimplePass."
+   },
+   "IDS_TYPE_MASTER_PASSWORD": {
+      "message": "Digite a senha mestra"
+   },
+   "IDS_USE_WINDOWS_PASSWORD": {
+      "message": "Ou digite a senha do Windows"
+   },
+   "editText": {
+      "message": "Editar Cart\u00E3o da Web"
+   },
+   "reportText": {
+      "message": "Informar Problema"
+   },
+   "runAppText": {
+      "message": "Abrir o SimplePass..."
+   },
+   "storeText": {
+      "message": "App Store"
+   }
+}

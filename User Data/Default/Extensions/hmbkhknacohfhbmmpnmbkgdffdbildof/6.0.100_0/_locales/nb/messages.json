@@ -1,0 +1,77 @@
+{
+   "IDS_BADSWIPE_LOW_QUALITY": {
+      "message": "Mislykket trekk, d\u00E5rlig kvalitet."
+   },
+   "IDS_BADSWIPE_NO_MATCH": {
+      "message": "Ingen treff."
+   },
+   "IDS_BADSWIPE_TOO_FAST": {
+      "message": "Du trakk fingeren for fort."
+   },
+   "IDS_BADSWIPE_TOO_HIGH": {
+      "message": "Du trakk fingeren for h\u00F8yt."
+   },
+   "IDS_BADSWIPE_TOO_LEFT": {
+      "message": "Du trakk fingeren for langt til venstre."
+   },
+   "IDS_BADSWIPE_TOO_LOW": {
+      "message": "Du trakk fingeren for lavt."
+   },
+   "IDS_BADSWIPE_TOO_RIGHT": {
+      "message": "Du trakk fingeren for langt til h\u00F8yre."
+   },
+   "IDS_BADSWIPE_TOO_SHORT": {
+      "message": "Du trakk fingeren for kort."
+   },
+   "IDS_BADSWIPE_TOO_SKEWED": {
+      "message": "Du trakk fingeren for skjevt."
+   },
+   "IDS_BADSWIPE_TOO_SLOW": {
+      "message": "Du trakk fingeren for sakte."
+   },
+   "IDS_ENTER_PASSWORD_NOTICE": {
+      "message": "Logg p\u00E5 med hovedpassordet ditt."
+   },
+   "IDS_INCORRECT_PASSWORD": {
+      "message": "Passordet ditt er feil."
+   },
+   "IDS_LEARN_MORE": {
+      "message": "Finn ut mer"
+   },
+   "IDS_LOGIN_IN": {
+      "message": "Logginn"
+   },
+   "IDS_NEVER_FOR_THIS_SITE": {
+      "message": "Aldri for denne siden"
+   },
+   "IDS_NO_FP_FOCUS": {
+      "message": "Fingeravtrykkverifisering avbrutt. Klikk her for \u00E5 fortsette."
+   },
+   "IDS_SAVE_PASSWORD": {
+      "message": "Husk passord"
+   },
+   "IDS_SAVE_PASSWORD_NOTICE": {
+      "message": "\u00D8nsker du at SimplePass skal huske passordet dittnfor denne siden?"
+   },
+   "IDS_SWIPE_FINGER": {
+      "message": "Trekk fingeren din over sensoren for \u00E5 logge deg p\u00E5 med SimplePass."
+   },
+   "IDS_TYPE_MASTER_PASSWORD": {
+      "message": "Tast inn hovedpassord"
+   },
+   "IDS_USE_WINDOWS_PASSWORD": {
+      "message": "Eller tast inn Windows-passord"
+   },
+   "editText": {
+      "message": "Rediger nettkort"
+   },
+   "reportText": {
+      "message": "Rapportert problem"
+   },
+   "runAppText": {
+      "message": "\u00C5pne SimplePass..."
+   },
+   "storeText": {
+      "message": "App Store"
+   }
+}

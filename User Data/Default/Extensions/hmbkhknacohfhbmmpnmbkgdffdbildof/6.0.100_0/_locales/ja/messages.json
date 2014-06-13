@@ -1,0 +1,77 @@
+{
+   "IDS_BADSWIPE_LOW_QUALITY": {
+      "message": "\u6ED1\u3089\u3057\u65B9\u304C\u60AA\u304F\u3001\u6B63\u78BA\u306B\u8AAD\u307F\u53D6\u308C\u307E\u305B\u3093\u3067\u3057\u305F\u3002"
+   },
+   "IDS_BADSWIPE_NO_MATCH": {
+      "message": "\u4E00\u81F4\u3057\u307E\u305B\u3093\u3002"
+   },
+   "IDS_BADSWIPE_TOO_FAST": {
+      "message": "\u6ED1\u3089\u3059\u901F\u5EA6\u304C\u901F\u3059\u304E\u307E\u3057\u305F\u3002"
+   },
+   "IDS_BADSWIPE_TOO_HIGH": {
+      "message": "\u6ED1\u3089\u3059\u4F4D\u7F6E\u304C\u9AD8\u3059\u304E\u307E\u3057\u305F\u3002"
+   },
+   "IDS_BADSWIPE_TOO_LEFT": {
+      "message": "\u6ED1\u3089\u3059\u4F4D\u7F6E\u304C\u5DE6\u306B\u5BC4\u308A\u904E\u304E\u3066\u3044\u307E\u3057\u305F\u3002"
+   },
+   "IDS_BADSWIPE_TOO_LOW": {
+      "message": "\u6ED1\u3089\u3059\u4F4D\u7F6E\u304C\u9AD8\u3059\u304E\u307E\u3057\u305F\u3002"
+   },
+   "IDS_BADSWIPE_TOO_RIGHT": {
+      "message": "\u6ED1\u3089\u3059\u4F4D\u7F6E\u304C\u53F3\u306B\u5BC4\u308A\u904E\u304E\u3066\u3044\u307E\u3057\u305F\u3002"
+   },
+   "IDS_BADSWIPE_TOO_SHORT": {
+      "message": "\u6ED1\u3089\u3059\u8DDD\u96E2\u304C\u4E0D\u5341\u5206\u3067\u3057\u305F\u3002"
+   },
+   "IDS_BADSWIPE_TOO_SKEWED": {
+      "message": "\u6ED1\u3089\u3059\u65B9\u5411\u304C\u50BE\u3044\u3066\u3044\u307E\u3057\u305F\u3002"
+   },
+   "IDS_BADSWIPE_TOO_SLOW": {
+      "message": "\u6ED1\u3089\u3059\u901F\u5EA6\u304C\u9045\u3059\u304E\u307E\u3057\u305F\u3002"
+   },
+   "IDS_ENTER_PASSWORD_NOTICE": {
+      "message": "\u30DE\u30B9\u30BF\u30FC \u30D1\u30B9\u30EF\u30FC\u30C9\u3067\u30B5\u30A4\u30F3 \u30A4\u30F3\u3059\u308B"
+   },
+   "IDS_INCORRECT_PASSWORD": {
+      "message": "\u305D\u306E\u30D1\u30B9\u30EF\u30FC\u30C9\u306F\u6B63\u3057\u304F\u3042\u308A\u307E\u305B\u3093\u3002"
+   },
+   "IDS_LEARN_MORE": {
+      "message": "\u3082\u3063\u3068\u8A73\u3057\u3044\u60C5\u5831"
+   },
+   "IDS_LOGIN_IN": {
+      "message": "\u30ED\u30B0\u30A4\u30F3"
+   },
+   "IDS_NEVER_FOR_THIS_SITE": {
+      "message": "\u3053\u306E\u30B5\u30A4\u30C8\u3067\u306F\u30B5\u30A4\u30F3 \u30A4\u30F3\u3057\u306A\u3044"
+   },
+   "IDS_NO_FP_FOCUS": {
+      "message": "\u6307\u7D0B\u306E\u691C\u8A3C\u304C\u4E00\u6642\u505C\u6B62\u3057\u307E\u3057\u305F\u3002\u30AF\u30EA\u30C3\u30AF\u3057\u3066\u7D9A\u884C\u3057\u307E\u3059\u3002"
+   },
+   "IDS_SAVE_PASSWORD": {
+      "message": "\u30D1\u30B9\u30EF\u30FC\u30C9\u3092\u8A18\u61B6\u3059\u308B"
+   },
+   "IDS_SAVE_PASSWORD_NOTICE": {
+      "message": "SimplePass \u306B\u3053\u306E\u30B5\u30A4\u30C8\u306E\u30D1\u30B9\u30EF\u30FC\u30C9\u3092\u8A18\u61B6\u3055\u305B\u307E\u3059\u304B?"
+   },
+   "IDS_SWIPE_FINGER": {
+      "message": "\u6307\u3092\u6ED1\u3089\u305B\u3066 SimplePass \u306B\u30B5\u30A4\u30F3 \u30A4\u30F3\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+   },
+   "IDS_TYPE_MASTER_PASSWORD": {
+      "message": "\u30DE\u30B9\u30BF\u30FC \u30D1\u30B9\u30EF\u30FC\u30C9\u3092\u5165\u529B\u3059\u308B"
+   },
+   "IDS_USE_WINDOWS_PASSWORD": {
+      "message": "\u307E\u305F\u306F Windows \u306E\u30D1\u30B9\u30EF\u30FC\u30C9\u3092\u5165\u529B\u3059\u308B"
+   },
+   "editText": {
+      "message": "Web \u30AB\u30FC\u30C9\u3092\u7DE8\u96C6\u3059\u308B"
+   },
+   "reportText": {
+      "message": "\u554F\u984C\u3092\u30EC\u30DD\u30FC\u30C8\u3059\u308B"
+   },
+   "runAppText": {
+      "message": "SimplePass \u3092\u958B\u304F..."
+   },
+   "storeText": {
+      "message": "App Store"
+   }
+}

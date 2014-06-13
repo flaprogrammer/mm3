@@ -1,0 +1,77 @@
+{
+   "IDS_BADSWIPE_LOW_QUALITY": {
+      "message": "Fingerzug fehlerhaft, niedrige Qualit\u00E4t."
+   },
+   "IDS_BADSWIPE_NO_MATCH": {
+      "message": "Keine \u00DCbereinstimmung."
+   },
+   "IDS_BADSWIPE_TOO_FAST": {
+      "message": "Fingerzug zu schnell."
+   },
+   "IDS_BADSWIPE_TOO_HIGH": {
+      "message": "Fingerzug zu hoch."
+   },
+   "IDS_BADSWIPE_TOO_LEFT": {
+      "message": "Fingerzug zu weit links."
+   },
+   "IDS_BADSWIPE_TOO_LOW": {
+      "message": "Fingerzug zu niedrig."
+   },
+   "IDS_BADSWIPE_TOO_RIGHT": {
+      "message": "Fingerzug zu weit rechts."
+   },
+   "IDS_BADSWIPE_TOO_SHORT": {
+      "message": "Fingerzug zu kurz."
+   },
+   "IDS_BADSWIPE_TOO_SKEWED": {
+      "message": "Fingerzug zu schr\u00E4g."
+   },
+   "IDS_BADSWIPE_TOO_SLOW": {
+      "message": "Fingerzug zu langsam."
+   },
+   "IDS_ENTER_PASSWORD_NOTICE": {
+      "message": "Melden Sie sich mit Ihrem Master-Kennwort an."
+   },
+   "IDS_INCORRECT_PASSWORD": {
+      "message": "Das Kennwort ist falsch."
+   },
+   "IDS_LEARN_MORE": {
+      "message": "Weitere Infos"
+   },
+   "IDS_LOGIN_IN": {
+      "message": "Anmeldung"
+   },
+   "IDS_NEVER_FOR_THIS_SITE": {
+      "message": "Nie f\u00FCr diese Site"
+   },
+   "IDS_NO_FP_FOCUS": {
+      "message": "Fingerabdruckverifizierung unterbrochen. Klicken Sie hier zum Fortsetzen."
+   },
+   "IDS_SAVE_PASSWORD": {
+      "message": "Kennwort speichern"
+   },
+   "IDS_SAVE_PASSWORD_NOTICE": {
+      "message": "Soll SimplePass Ihr Kennwort f\u00FCr diese Site speichern?"
+   },
+   "IDS_SWIPE_FINGER": {
+      "message": "Ziehen Sie Ihren Finger erneut \u00FCber den Sensor, um sich bei SimplePass anzumelden."
+   },
+   "IDS_TYPE_MASTER_PASSWORD": {
+      "message": "Geben Sie das Master-Kennwort ein"
+   },
+   "IDS_USE_WINDOWS_PASSWORD": {
+      "message": "Oder Windows-Kennwort eingeben"
+   },
+   "editText": {
+      "message": "Webkarte bearbeiten"
+   },
+   "reportText": {
+      "message": "Problem melden"
+   },
+   "runAppText": {
+      "message": "SimplePass \u00F6ffnen..."
+   },
+   "storeText": {
+      "message": "App Store"
+   }
+}

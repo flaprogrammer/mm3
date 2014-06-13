@@ -1,0 +1,77 @@
+{
+   "IDS_BADSWIPE_LOW_QUALITY": {
+      "message": "Hareket beklenen \u015Fekilde yap\u0131lmad\u0131."
+   },
+   "IDS_BADSWIPE_NO_MATCH": {
+      "message": "E\u015Fle\u015Fme yok."
+   },
+   "IDS_BADSWIPE_TOO_FAST": {
+      "message": "Parma\u011F\u0131n\u0131z\u0131 \u00E7ok h\u0131zl\u0131 ge\u00E7irdiniz."
+   },
+   "IDS_BADSWIPE_TOO_HIGH": {
+      "message": "Parma\u011F\u0131n\u0131z\u0131 \u00E7ok yukar\u0131dan ge\u00E7irdiniz."
+   },
+   "IDS_BADSWIPE_TOO_LEFT": {
+      "message": "Parma\u011F\u0131n\u0131z\u0131 fazla soldan ge\u00E7irdiniz."
+   },
+   "IDS_BADSWIPE_TOO_LOW": {
+      "message": "Parma\u011F\u0131n\u0131z\u0131 \u00E7ok yak\u0131ndan ge\u00E7irdiniz."
+   },
+   "IDS_BADSWIPE_TOO_RIGHT": {
+      "message": "Parma\u011F\u0131n\u0131z\u0131 fazla sa\u011Fdan ge\u00E7irdiniz."
+   },
+   "IDS_BADSWIPE_TOO_SHORT": {
+      "message": "Parma\u011F\u0131n\u0131z\u0131 ge\u00E7irme hareketi beklenenden k\u0131sa s\u00FCrd\u00FC."
+   },
+   "IDS_BADSWIPE_TOO_SKEWED": {
+      "message": "Parma\u011F\u0131n\u0131z\u0131 d\u00FCz bir hareketle ge\u00E7irmediniz."
+   },
+   "IDS_BADSWIPE_TOO_SLOW": {
+      "message": "Parma\u011F\u0131n\u0131z\u0131 \u00E7ok yava\u015F ge\u00E7irdiniz."
+   },
+   "IDS_ENTER_PASSWORD_NOTICE": {
+      "message": "Ana parolan\u0131zla oturum a\u00E7\u0131n."
+   },
+   "IDS_INCORRECT_PASSWORD": {
+      "message": "Parolan\u0131z yanl\u0131\u015F."
+   },
+   "IDS_LEARN_MORE": {
+      "message": "daha fazla bilgi"
+   },
+   "IDS_LOGIN_IN": {
+      "message": "Oturum a\u00E7"
+   },
+   "IDS_NEVER_FOR_THIS_SITE": {
+      "message": "Bu site i\u00E7in asla"
+   },
+   "IDS_NO_FP_FOCUS": {
+      "message": "Parmak izi do\u011Frulamas\u0131 duraklat\u0131ld\u0131. Devam etmek i\u00E7in buray\u0131 t\u0131klat\u0131n."
+   },
+   "IDS_SAVE_PASSWORD": {
+      "message": "Parolay\u0131 hat\u0131rla"
+   },
+   "IDS_SAVE_PASSWORD_NOTICE": {
+      "message": "SimplePass'in bu site i\u00E7in parolan\u0131z\u0131 an\u0131msamas\u0131n\u0131 istiyor musunuz?"
+   },
+   "IDS_SWIPE_FINGER": {
+      "message": "SimplePass'te oturum a\u00E7mak i\u00E7in parma\u011F\u0131n\u0131z\u0131 sens\u00F6r\u00FCn \u00FCzerinden ge\u00E7irin."
+   },
+   "IDS_TYPE_MASTER_PASSWORD": {
+      "message": "Ana parolay\u0131 gir"
+   },
+   "IDS_USE_WINDOWS_PASSWORD": {
+      "message": "Veya Windows parolas\u0131 gir"
+   },
+   "editText": {
+      "message": "Web Kart\u0131 D\u00FCzenle"
+   },
+   "reportText": {
+      "message": "Sorunu Bildir"
+   },
+   "runAppText": {
+      "message": "SimplePass'i A\u00E7..."
+   },
+   "storeText": {
+      "message": "Uygulama Ma\u011Fazas\u0131"
+   }
+}

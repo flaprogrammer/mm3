@@ -1,0 +1,77 @@
+{
+   "IDS_BADSWIPE_LOW_QUALITY": {
+      "message": "\u05D4\u05D7\u05DC\u05E7\u05D4 \u05DC\u05D0 \u05D8\u05D5\u05D1\u05D4, \u05D0\u05D9\u05DB\u05D5\u05EA \u05D9\u05E8\u05D5\u05D3\u05D4."
+   },
+   "IDS_BADSWIPE_NO_MATCH": {
+      "message": "\u05D0\u05D9\u05DF \u05D4\u05EA\u05D0\u05DE\u05D4."
+   },
+   "IDS_BADSWIPE_TOO_FAST": {
+      "message": "\u05D4\u05D7\u05DC\u05E7\u05EA \u05DE\u05D4\u05E8 \u05DE\u05D3\u05D9."
+   },
+   "IDS_BADSWIPE_TOO_HIGH": {
+      "message": "\u05D4\u05D7\u05DC\u05E7\u05EA \u05D2\u05D1\u05D5\u05D4 \u05DE\u05D3\u05D9."
+   },
+   "IDS_BADSWIPE_TOO_LEFT": {
+      "message": "\u05D4\u05D7\u05DC\u05E7\u05EA \u05E9\u05DE\u05D0\u05DC\u05D4 \u05DE\u05D3\u05D9."
+   },
+   "IDS_BADSWIPE_TOO_LOW": {
+      "message": "\u05D4\u05D7\u05DC\u05E7\u05EA \u05E0\u05DE\u05D5\u05DA \u05DE\u05D3\u05D9."
+   },
+   "IDS_BADSWIPE_TOO_RIGHT": {
+      "message": "\u05D4\u05D7\u05DC\u05E7\u05EA \u05D9\u05DE\u05D9\u05E0\u05D4 \u05DE\u05D3\u05D9."
+   },
+   "IDS_BADSWIPE_TOO_SHORT": {
+      "message": "\u05D4\u05D7\u05DC\u05E7\u05D4 \u05E7\u05E6\u05E8\u05D4 \u05DE\u05D3\u05D9."
+   },
+   "IDS_BADSWIPE_TOO_SKEWED": {
+      "message": "\u05D4\u05D7\u05DC\u05E7\u05EA \u05D4\u05E6\u05D9\u05D3\u05D4 \u05DE\u05D3\u05D9."
+   },
+   "IDS_BADSWIPE_TOO_SLOW": {
+      "message": "\u05D4\u05D7\u05DC\u05E7\u05EA \u05DC\u05D0\u05D8 \u05DE\u05D3\u05D9."
+   },
+   "IDS_ENTER_PASSWORD_NOTICE": {
+      "message": "\u05D4\u05EA\u05D7\u05D1\u05E8 \u05D1\u05D0\u05DE\u05E6\u05E2\u05D5\u05EA \u05D4\u05E1\u05D9\u05E1\u05DE\u05D4 \u05D4\u05E8\u05D0\u05E9\u05D9\u05EA \u05E9\u05DC\u05DA."
+   },
+   "IDS_INCORRECT_PASSWORD": {
+      "message": "\u05D4\u05E1\u05D9\u05E1\u05DE\u05D4 \u05E9\u05DC\u05DA \u05E9\u05D2\u05D5\u05D9\u05D4."
+   },
+   "IDS_LEARN_MORE": {
+      "message": "\u05DC\u05DE\u05D9\u05D3\u05E2 \u05E0\u05D5\u05E1\u05E3"
+   },
+   "IDS_LOGIN_IN": {
+      "message": "\u05DB\u05E0\u05D9\u05E1\u05D4"
+   },
+   "IDS_NEVER_FOR_THIS_SITE": {
+      "message": "\u05DC\u05E2\u05D5\u05DC\u05DD \u05DC\u05D0 \u05E2\u05D1\u05D5\u05E8 \u05D0\u05EA\u05E8 \u05D6\u05D4"
+   },
+   "IDS_NO_FP_FOCUS": {
+      "message": "\u05D0\u05D9\u05DE\u05D5\u05EA \u05D1\u05D0\u05DE\u05E6\u05E2\u05D5\u05EA \u05D8\u05D1\u05D9\u05E2\u05D5\u05EA \u05D0\u05E6\u05D1\u05E2 \u05D4\u05D5\u05E9\u05D4\u05D4. \u05DC\u05D7\u05E5 \u05DB\u05D0\u05DF \u05DB\u05D3\u05D9 \u05DC\u05D4\u05DE\u05E9\u05D9\u05DA."
+   },
+   "IDS_SAVE_PASSWORD": {
+      "message": "\u05D6\u05DB\u05D5\u05E8 \u05E1\u05D9\u05E1\u05DE\u05D4"
+   },
+   "IDS_SAVE_PASSWORD_NOTICE": {
+      "message": "\u05D4\u05D0\u05DD \u05D1\u05E8\u05E6\u05D5\u05E0\u05DA \u05E9-SimplePass \u05D9\u05D6\u05DB\u05D5\u05E8 \u05D0\u05EA \u05D4\u05E1\u05D9\u05E1\u05DE\u05D4 \u05E9\u05DC\u05DA \u05E2\u05D1\u05D5\u05E8 \u05D0\u05EA\u05E8 \u05D6\u05D4?"
+   },
+   "IDS_SWIPE_FINGER": {
+      "message": "\u05D4\u05D7\u05DC\u05E7 \u05D0\u05EA \u05D4\u05D0\u05E6\u05D1\u05E2 \u05DE\u05E2\u05DC \u05D4\u05D7\u05D9\u05D9\u05E9\u05DF \u05DB\u05D3\u05D9 \u05DC\u05D4\u05D9\u05DB\u05E0\u05E1 \u05DC-SimplePass."
+   },
+   "IDS_TYPE_MASTER_PASSWORD": {
+      "message": "\u05D4\u05E7\u05DC\u05D3 \u05E1\u05D9\u05E1\u05DE\u05EA \u05DE\u05E0\u05D4\u05DC"
+   },
+   "IDS_USE_WINDOWS_PASSWORD": {
+      "message": "\u05D0\u05D5 \u05D4\u05E7\u05DC\u05D3 \u05E1\u05D9\u05E1\u05DE\u05EA Windows"
+   },
+   "editText": {
+      "message": "\u05E2\u05E8\u05D9\u05DB\u05EA \u05DB\u05E8\u05D8\u05D9\u05E1 \u05D4\u05D0\u05D9\u05E0\u05D8\u05E8\u05E0\u05D8"
+   },
+   "reportText": {
+      "message": "\u05D3\u05D5\u05D5\u05D7 \u05E2\u05DC \u05D1\u05E2\u05D9\u05D4"
+   },
+   "runAppText": {
+      "message": "\u05E4\u05EA\u05D7 \u05D0\u05EA SimplePass..."
+   },
+   "storeText": {
+      "message": "App Store"
+   }
+}

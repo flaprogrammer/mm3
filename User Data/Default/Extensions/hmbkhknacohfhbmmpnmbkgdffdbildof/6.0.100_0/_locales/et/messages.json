@@ -1,0 +1,77 @@
+{
+   "IDS_BADSWIPE_LOW_QUALITY": {
+      "message": "Sobimatu t\u00F5mme, madal kvaliteet."
+   },
+   "IDS_BADSWIPE_NO_MATCH": {
+      "message": "Vastet pole."
+   },
+   "IDS_BADSWIPE_TOO_FAST": {
+      "message": "T\u00F5mmati liiga kiiresti."
+   },
+   "IDS_BADSWIPE_TOO_HIGH": {
+      "message": "T\u00F5mmati liiga k\u00F5rgelt."
+   },
+   "IDS_BADSWIPE_TOO_LEFT": {
+      "message": "T\u00F5mmati liiga palju vasakult poolt."
+   },
+   "IDS_BADSWIPE_TOO_LOW": {
+      "message": "T\u00F5mmati liiga madalalt."
+   },
+   "IDS_BADSWIPE_TOO_RIGHT": {
+      "message": "T\u00F5mmati liiga palju paremalt poolt."
+   },
+   "IDS_BADSWIPE_TOO_SHORT": {
+      "message": "Liiga l\u00FChike t\u00F5mme."
+   },
+   "IDS_BADSWIPE_TOO_SKEWED": {
+      "message": "T\u00F5mme liiga kaldus."
+   },
+   "IDS_BADSWIPE_TOO_SLOW": {
+      "message": "T\u00F5mmati liiga aeglaselt."
+   },
+   "IDS_ENTER_PASSWORD_NOTICE": {
+      "message": "Logige oma p\u00F5hiparooliga sisse."
+   },
+   "IDS_INCORRECT_PASSWORD": {
+      "message": "Parool on vale."
+   },
+   "IDS_LEARN_MORE": {
+      "message": "lisateave"
+   },
+   "IDS_LOGIN_IN": {
+      "message": "Sisselogimine"
+   },
+   "IDS_NEVER_FOR_THIS_SITE": {
+      "message": "Selle saidi puhul mitte kunagi"
+   },
+   "IDS_NO_FP_FOCUS": {
+      "message": "S\u00F5rmej\u00E4lje kontrollimine peatatud. J\u00E4tkamiseks kl\u00F5psake siin."
+   },
+   "IDS_SAVE_PASSWORD": {
+      "message": "J\u00E4ta parool meelde"
+   },
+   "IDS_SAVE_PASSWORD_NOTICE": {
+      "message": "Kas soovite, et SimplePass j\u00E4taks meelde selle saidi parooli?"
+   },
+   "IDS_SWIPE_FINGER": {
+      "message": "T\u00F5mmake s\u00F5rmega \u00FCle anduri ja logige sisse SimplePassiga."
+   },
+   "IDS_TYPE_MASTER_PASSWORD": {
+      "message": "Tippige p\u00F5hiparool"
+   },
+   "IDS_USE_WINDOWS_PASSWORD": {
+      "message": "V\u00F5i tippige Windowsi parool"
+   },
+   "editText": {
+      "message": "Redigeerige veebikaarti"
+   },
+   "reportText": {
+      "message": "Teatage probleemist"
+   },
+   "runAppText": {
+      "message": "Avage SimplePass ..."
+   },
+   "storeText": {
+      "message": "App Store"
+   }
+}

@@ -1,0 +1,83 @@
+﻿<script src="../js/jquery.min.js"></script>
+ <script src="../js/jquery-ui.min.js"></script>
+	   <script src="../js/main.js"></script>
+	   <link href="../css/1.css" rel="stylesheet">
+	   <link href="../css/dop.css" rel="stylesheet">
+ 
+	   <script src="list.js"></script>
+	
+
+	<div class="content_block"> 
+		
+			
+			
+		<div class="task_text"> Укы  </div>
+
+		<div class="content_choose"></div>
+            <div id="good"  class="make_mark"> <img src="../img/good.png" width=300 height=250></div>
+			<div id="bad" class="make_mark" ><img src="../img/bad.png" width=300 height=250></div>
+	
+	</div>
+
+	<audio id="textsound" src="../audio/24.mp3"> </audio>
+	
+		<img src="../img/ico_sound.png" onClick="document.getElementById('textsound').play();">
+	
+		
+	
+		
+<script>
+
+var truth = 1;
+var all = ["$Тәмле сүз <br>Минем әбиемнең һаман әйтә торган сүзе бар. Ул безгә һәрвакыт:— Балакайларым, тәмле телле, тәмле сүзле бу-лыгыз. Тәмсез телле булсагыз, үзегезне беркем дәяратмас, — ди.Мин бу сүзне бер дә аңлап җиткерми идем. Ничекинде сүз тәмле була икән? Ул бит кәнфит түгел. Аныашап карап та булмый. Мин үзем белгән сүзләрне әйтепкарыйм: ≪Әти, әни, күмәч, ипи, бир, кил, кит, матур, зур,акыллы, кызыл, ат ... ≫ Сүзләр бик күп инде ул. Тик менәәбием әйткән тәмле сүз нинди була икән соң ул?<br><br>Әминә Бикчәнтәевадан"];
+var metka = 0;
+
+
+var currentFileAll = location.href.match(/[^/]+\.html/i)[0];
+var currentFile = currentFileAll.substr(0,currentFileAll.length-5);
+
+
+all.sort(function() {return .7 - Math.random();});
+
+	var str1='<div class="guess_block">';
+			var str2='</div>';
+			var res="";
+		for(var i = 0; i<all.length; i++){
+			if(all[i][0] == "$"){res = res + str1 + all[i].substr(1,99999) + str2;}
+			else{res = res + str1 + all[i] + str2;}
+		}
+		
+		document.getElementsByClassName('content_choose')[0].innerHTML = res;
+
+$(document).ready(function(){
+
+		$(".guess_block").click(function(){
+			//если все верно ответил тогда
+		if(all.indexOf("$"+this.innerHTML) != -1){
+			
+			//красим
+			this.style.backgroundColor = "#49CC44";
+			// показываем хорошо
+			document.getElementById('good').style.display = "block";
+			setTimeout(function(){document.getElementById('good').style.display = "none";},2000);
+			metka++;
+			
+			// если все правильно то переходим на след задание
+			if(metka  >= truth){		
+				if(list[currentFile]) {
+						setTimeout(function(){location.href = list[currentFile]+".html";},5000);document.getElementById('good').style.display = "block";
+				}	
+			}
+		}
+				
+		// если нет то красим в красный
+		else{
+		this.style.backgroundColor = "#EB3B75";
+					document.getElementById('bad').style.display = "block";
+			setTimeout(function(){document.getElementById('bad').style.display = "none";},2000);
+		}
+		
+		});	
+		
+});
+</script>

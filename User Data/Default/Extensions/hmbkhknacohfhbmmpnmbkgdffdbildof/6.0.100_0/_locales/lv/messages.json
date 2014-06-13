@@ -1,0 +1,77 @@
+{
+   "IDS_BADSWIPE_LOW_QUALITY": {
+      "message": "Pavilk\u0161anas \u017Eesta kvalit\u0101te ir zema."
+   },
+   "IDS_BADSWIPE_NO_MATCH": {
+      "message": "Nav atbilst\u012Bbas."
+   },
+   "IDS_BADSWIPE_TOO_FAST": {
+      "message": "Pavilk\u0161anas \u017Eests ir p\u0101r\u0101k \u0101trs."
+   },
+   "IDS_BADSWIPE_TOO_HIGH": {
+      "message": "Pavilk\u0161anas \u017Eests ir p\u0101r\u0101k augstu."
+   },
+   "IDS_BADSWIPE_TOO_LEFT": {
+      "message": "Pavilk\u0161anas \u017Eests ir p\u0101r\u0101k t\u0101lu kreisaj\u0101 pus\u0113."
+   },
+   "IDS_BADSWIPE_TOO_LOW": {
+      "message": "Pavilk\u0161anas \u017Eests ir p\u0101r\u0101k zemu."
+   },
+   "IDS_BADSWIPE_TOO_RIGHT": {
+      "message": "Pavilk\u0161anas \u017Eests ir p\u0101r\u0101k t\u0101lu labaj\u0101 pus\u0113."
+   },
+   "IDS_BADSWIPE_TOO_SHORT": {
+      "message": "Pavilk\u0161anas \u017Eests ir p\u0101r\u0101k \u012Bss."
+   },
+   "IDS_BADSWIPE_TOO_SKEWED": {
+      "message": "Pavilk\u0161anas \u017Eests ir p\u0101r\u0101k netaisns."
+   },
+   "IDS_BADSWIPE_TOO_SLOW": {
+      "message": "Pavilk\u0161anas \u017Eests ir p\u0101r\u0101k l\u0113ns."
+   },
+   "IDS_ENTER_PASSWORD_NOTICE": {
+      "message": "Pierakstieties, izmantojot savu galveno paroli."
+   },
+   "IDS_INCORRECT_PASSWORD": {
+      "message": "Parole nav pareiza."
+   },
+   "IDS_LEARN_MORE": {
+      "message": "Uzzin\u0101t vair\u0101k"
+   },
+   "IDS_LOGIN_IN": {
+      "message": "Pieteikties"
+   },
+   "IDS_NEVER_FOR_THIS_SITE": {
+      "message": "Nekad \u0161ai vietnei"
+   },
+   "IDS_NO_FP_FOCUS": {
+      "message": "Pirkstu nospieduma verifik\u0101ja tika aptur\u0113. Noklik\u0161\u0137iniet \u0161eit, lai turpin\u0101."
+   },
+   "IDS_SAVE_PASSWORD": {
+      "message": "Atcer\u0113ties paroli"
+   },
+   "IDS_SAVE_PASSWORD_NOTICE": {
+      "message": "Vai v\u0113laties, lai SimplePass atceras \u0161ai vietnei ievad\u012Bto paroli?"
+   },
+   "IDS_SWIPE_FINGER": {
+      "message": "Velciet pirkstu p\u0101r sensoru, lai pierakst\u012Btos, izmantojot SimplePass."
+   },
+   "IDS_TYPE_MASTER_PASSWORD": {
+      "message": "Ierakstiet galveno paroli"
+   },
+   "IDS_USE_WINDOWS_PASSWORD": {
+      "message": "Vai ar\u012B ievad\u012Bt Windows paroli"
+   },
+   "editText": {
+      "message": "T\u012Bmek\u013Ca kartes redi\u0123\u0113\u0161ana"
+   },
+   "reportText": {
+      "message": "Zi\u0146o\u0161ana par probl\u0113mu"
+   },
+   "runAppText": {
+      "message": "Atv\u0113rt SimplePass..."
+   },
+   "storeText": {
+      "message": "App Store"
+   }
+}

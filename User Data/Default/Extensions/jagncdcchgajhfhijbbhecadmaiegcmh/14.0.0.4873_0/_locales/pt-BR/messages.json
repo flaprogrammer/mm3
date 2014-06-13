@@ -1,0 +1,15 @@
+﻿{
+    "ExtensionName": {
+        "message": "Teclado Virtual",
+        "description": "Teclado Virtual"
+    },
+	
+    "ExtensionDescription": {
+        "message": "",
+        "description": ""
+    },
+	"TooltipText": {
+        "message": "A inserção segura de dados com o teclado está ativada",
+        "description": ""
+    }
+}

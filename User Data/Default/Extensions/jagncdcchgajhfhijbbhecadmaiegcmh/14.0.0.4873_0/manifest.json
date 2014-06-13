@@ -1,0 +1,32 @@
+{
+   "background": {
+      "page": "background/main.html",
+      "persistent": true
+   },
+   "browser_action": {
+      "default_icon": "images/kbrd-mini.png",
+      "permissions": [ "tabs", "http://*/", "https://*/" ]
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "content_scripts/keypress_emulator.js", "content_scripts/keypress_emulator_chrome.js", "content_scripts/protectable_element_detector.js", "content_scripts/icon_injector.js", "content_scripts/icon_helper.js", "content_scripts/tooltip.js", "content_scripts/once_timed_tooltip.js", "content_scripts/element_screen_position.js", "content_scripts/tsf_composition_view.js", "content_scripts/tsf_editor.js", "content_scripts/content.js" ],
+      "matches": [ "\u003Call_urls\u003E" ],
+      "permissions": [ "tabs", "http://*/", "https://*/", "chrome://*/" ],
+      "run_at": "document_end"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_ExtensionDescription__",
+   "icons": {
+      "48": "images/kbrd.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDIE8ddNMQ/SHWOqKZxQxem2oNC2OBd6k7O54d2Wy39/EfiWgpIdYxghWQCzltY7GKpdguKT9ex5421Eq5KC2rDf6DzgBdvZYEG3lffYa1oIWKfKP8kO5p3DWzsEaGjIO6U6gUaGZDYglwVraxxowNDsVgvuz1F4G/FwdnXsOfQcwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "18.0.0.0",
+   "name": "__MSG_ExtensionName__",
+   "permissions": [ "contextMenus", "tabs", "http://*/", "https://*/" ],
+   "plugins": [ {
+      "path": "plugin/npVKPlugin.dll",
+      "public": true
+   } ],
+   "version": "14.0.0.4873"
+}

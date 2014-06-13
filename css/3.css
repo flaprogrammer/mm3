@@ -1,0 +1,256 @@
+
+.title{
+padding-top:33px;
+margin:0 auto;
+width:100px;
+height:25px;
+float:left;
+}
+
+
+.task_text{
+margin:0 auto;
+color:black;
+padding: 10px 0px;
+margin-top:40px;
+margin-bottom: 30px;
+line-height: normal;
+width:600px;
+border-radius:15px;
+text-align: center;
+background-size: 50px 50px;
+position:relative;
+font-size: 18pt; 
+clear: both;
+
+background: #b7deed; /* Old browsers */
+background: -moz-linear-gradient(top, #b7deed 0%, #71ceef 50%, #21b4e2 51%, #b7deed 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b7deed), color-stop(50%,#71ceef), color-stop(51%,#21b4e2), color-stop(100%,#b7deed)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #b7deed 0%,#71ceef 50%,#21b4e2 51%,#b7deed 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #b7deed 0%,#71ceef 50%,#21b4e2 51%,#b7deed 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #b7deed 0%,#71ceef 50%,#21b4e2 51%,#b7deed 100%); /* IE10+ */
+background: linear-gradient(to bottom, #b7deed 0%,#71ceef 50%,#21b4e2 51%,#b7deed 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7deed', endColorstr='#b7deed',GradientType=0 ); /* IE6-9 */
+
+
+
+
+}	
+
+
+.leftimage {
+margin: 0 auto;
+position:relative;
+clear: both;
+display: block;
+}
+
+
+.content_block {
+width: auto;
+display: block;
+position: relative;
+height: auto;
+min-height: 700px;
+}
+
+.content_choose{
+width:540px;
+height:455px;
+margin:0 auto;
+margin-left:50px;
+margin-top:10px;
+float:left;
+}
+
+.mesto{
+width:auto;
+min-width:120px;
+height:42px;
+margin:25px 25px 25px 25px;
+float:left;
+text-align: center;
+line-height: 12px;
+border-radius:12px;
+background-size: 50px 50px;
+background-color: #8EB8FA;
+background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                  transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                  transparent 75%, transparent);
+background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                  transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                  transparent 75%, transparent);
+background-image: linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                  transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                  transparent 75%, transparent);
+-pie-background: linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                 transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                 transparent 75%, transparent) 0 0 / 50px 50px #8EB8FA;
+}
+
+
+.guess_block{
+width:auto;
+min-width:120px;
+height:42px;
+margin:25px 25px 25px 25px;
+float:left;
+text-align: center;
+line-height: 38px;
+border-radius:12px;
+background-size: 50px 50px;
+background-color: #bc4;
+background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                  transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                  transparent 75%, transparent);
+background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                  transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                  transparent 75%, transparent);
+background-image: linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                  transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                  transparent 75%, transparent);
+-pie-background: linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                 transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                 transparent 75%, transparent) 0 0 / 50px 50px #bc4;
+}
+
+
+.koko{
+width:auto;
+min-width:120px;
+height:32px;
+margin:25px 25px 25px 25px;
+float:left;
+text-align: center;
+line-height: 25px;
+border-radius:12px;
+background-size: 50px 50px;
+background-color: "#49CC44";
+background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                  transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                  transparent 75%, transparent);
+background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                  transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                  transparent 75%, transparent);
+background-image: linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                  transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                  transparent 75%, transparent);
+-pie-background: linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                 transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                 transparent 75%, transparent) 0 0 / 50px 50px #bc4;
+}
+
+.top_text{
+font-size:14pt; 
+display: block;
+width:640px;
+height: auto;
+min-height:80px;
+text-align: center;
+margin:0 auto;
+padding-top: 30px;
+padding-bottom: 30px;
+line-height: 100px;
+border-radius:12px;
+background-size: 50px 50px;
+background-color: #ffe680;
+background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                  transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                  transparent 75%, transparent);
+background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                  transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                  transparent 75%, transparent);
+background-image: linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                  transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                  transparent 75%, transparent);
+-pie-background: linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                 transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                 transparent 75%, transparent) 0 0 / 50px 50px #bc4;
+}
+
+.middle_text{
+width:230px;
+height:420px;
+min-width:120px;
+margin:25px 0px 0px 0px;
+float:left;
+text-align: center;
+border-radius:12px;
+background-size: 50px 50px;
+border:2px dashed black;
+}
+
+.right_text{
+width:635px;
+height:auto;
+margin:0 auto;
+text-align: center;
+border-radius:12px;
+background-size: 50px 50px;
+}
+
+.empty_place{
+width:auto;
+min-width:170px;
+height:55px;
+margin:25px 25px 25px 25px;
+float:left;
+text-align: center;
+line-height: 38px;
+border-radius:12px;
+background-size: 50px 50px;
+border:2px dashed green;
+}
+
+.full_text{
+margin:0 auto;
+color:black;
+padding: 10px 0px;
+margin-top:40px;
+margin-bottom: 30px;
+line-height: normal;
+width:600px;
+border-radius:15px;
+text-align: center;
+background-size: 50px 50px;
+position:relative;
+font-size: 18pt; 
+clear: both;
+
+background-color: #5ce9c4;
+
+
+
+}
+
+.color_text{
+display: inline-block;
+padding: 5px;
+width:auto;
+height:auto;
+margin:0px 0px 0px 5px;
+text-align: center;
+line-height: 38px;
+cursor: pointer;
+}
+
+.color_text:hover{
+border-radius: 20%;
+background-color: #bc4;
+background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                  transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                  transparent 75%, transparent);
+background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                  transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                  transparent 75%, transparent);
+background-image: linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                  transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                  transparent 75%, transparent);
+-pie-background: linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                 transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                 transparent 75%, transparent) 0 0 / 50px 50px #bc4;
+
+
+
+}
+

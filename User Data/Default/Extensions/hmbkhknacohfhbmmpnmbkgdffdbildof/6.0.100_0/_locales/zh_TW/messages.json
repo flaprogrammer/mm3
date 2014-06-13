@@ -1,0 +1,77 @@
+{
+   "IDS_BADSWIPE_LOW_QUALITY": {
+      "message": "\u5283\u7684\u54C1\u8CEA\u592A\u4F4E\u3002"
+   },
+   "IDS_BADSWIPE_NO_MATCH": {
+      "message": "\u7121\u76F8\u7B26\u9805\u3002"
+   },
+   "IDS_BADSWIPE_TOO_FAST": {
+      "message": "\u5283\u592A\u5FEB\u3002"
+   },
+   "IDS_BADSWIPE_TOO_HIGH": {
+      "message": "\u5283\u592A\u9AD8\u3002"
+   },
+   "IDS_BADSWIPE_TOO_LEFT": {
+      "message": "\u5283\u592A\u5DE6\u3002"
+   },
+   "IDS_BADSWIPE_TOO_LOW": {
+      "message": "\u5283\u592A\u4F4E\u3002"
+   },
+   "IDS_BADSWIPE_TOO_RIGHT": {
+      "message": "\u5283\u592A\u53F3\u3002"
+   },
+   "IDS_BADSWIPE_TOO_SHORT": {
+      "message": "\u5283\u592A\u77ED\u3002"
+   },
+   "IDS_BADSWIPE_TOO_SKEWED": {
+      "message": "\u5283\u592A\u659C\u3002"
+   },
+   "IDS_BADSWIPE_TOO_SLOW": {
+      "message": "\u5283\u592A\u6162\u3002"
+   },
+   "IDS_ENTER_PASSWORD_NOTICE": {
+      "message": "\u4F7F\u7528\u60A8\u7684\u4E3B\u8981\u5BC6\u78BC\u767B\u5165\u3002"
+   },
+   "IDS_INCORRECT_PASSWORD": {
+      "message": "\u60A8\u7684\u5BC6\u78BC\u4E0D\u6B63\u78BA\u3002"
+   },
+   "IDS_LEARN_MORE": {
+      "message": "\u66F4\u591A\u8CC7\u8A0A"
+   },
+   "IDS_LOGIN_IN": {
+      "message": "\u767B\u5165"
+   },
+   "IDS_NEVER_FOR_THIS_SITE": {
+      "message": "\u6B64\u7DB2\u7AD9\u6C38\u4E0D\u8A18"
+   },
+   "IDS_NO_FP_FOCUS": {
+      "message": "\u6307\u7D0B\u9A57\u8B49\u5DF2\u66AB\u505C\u3002\u6309\u9019\u88E1\u4EE5\u7E7C\u7E8C\u3002"
+   },
+   "IDS_SAVE_PASSWORD": {
+      "message": "\u8A18\u4F4F\u5BC6\u78BC"
+   },
+   "IDS_SAVE_PASSWORD_NOTICE": {
+      "message": "\u662F\u5426\u8981\u8B93 SimplePass \u8A18\u4F4F\u60A8\u5728\u9019\u500B\u7DB2\u7AD9\u6240\u7528\u7684\u5BC6\u78BC?"
+   },
+   "IDS_SWIPE_FINGER": {
+      "message": "\u5728\u611F\u61C9\u5668\u4E0A\u5283\u4E00\u4E0B\u60A8\u7684\u624B\u6307\uFF0C\u4EE5\u900F\u904E SimplePass \u9032\u884C\u767B\u5165\u3002"
+   },
+   "IDS_TYPE_MASTER_PASSWORD": {
+      "message": "\u8F38\u5165\u4E3B\u8981\u5BC6\u78BC"
+   },
+   "IDS_USE_WINDOWS_PASSWORD": {
+      "message": "\u6216\u8F38\u5165 Windows \u5BC6\u78BC"
+   },
+   "editText": {
+      "message": "\u7DE8\u8F2F Web \u5361"
+   },
+   "reportText": {
+      "message": "\u5831\u544A\u554F\u984C"
+   },
+   "runAppText": {
+      "message": "\u6253\u958B SimplePass..."
+   },
+   "storeText": {
+      "message": "App Store"
+   }
+}

@@ -1,0 +1,85 @@
+﻿<script src="../js/jquery.min.js"></script>
+ <script src="../js/jquery-ui.min.js"></script>
+	   <script src="../js/main.js"></script>
+	   <link href="../css/1.css" rel="stylesheet">
+	   <link href="../css/dop.css" rel="stylesheet">
+ 
+
+	
+
+	<div class="content_block"> 
+		
+			
+			<img class="leftimage" src="../img/7.3.png" width="250" height="250">
+	
+		<div class="task_text"> Укы.Сыйфатлар белән сыйфатланмышларны әйт.  </div>
+
+		<div class="content_choose"></div>
+            <div id="good"  class="make_mark"> <img src="../img/good.png" width=300 height=250></div>
+			<div id="bad" class="make_mark" ><img src="../img/bad.png" width=300 height=250></div>
+	
+	</div>
+
+	<audio id="textsound" src="../audio/7.3.mp3"> </audio>
+	<audio id="textsound1" src="../audio/7.3.1.mp3"> </audio>
+	
+		<img src="../img/ico_sound.png" onClick="document.getElementById('textsound').play();">
+	
+				<img src="../img/ico_sound.png" onClick="document.getElementById('textsound1').play();">
+	
+	
+		
+<script>
+
+var truth = 1;
+var all = ["$Болында, болында<br>Ал чәчәкләр үсәләр.<br>Ал чәчәкләрне тибрәтеп,<br>Җылы җилләр исәләр.<br>Х.Вахит<br>Боз киткәч, җир кипкәч,<br>Саф аяз көннәрдә,<br>Китәрбез юл белән<br>Зәңгәрсу урманга.<br>Н.Исәнбәт"];
+var metka = 0;
+
+all.sort(function() {return .7 - Math.random();});
+
+	var str1='<div class="guess_block" style="width:500px;">';
+			var str2='</div>';
+			var res="";
+		for(var i = 0; i<all.length; i++){
+			if(all[i][0] == "$"){res = res + str1 + all[i].substr(1,99999) + str2;}
+			else{res = res + str1 + all[i] + str2;}
+		}
+		
+		document.getElementsByClassName('content_choose')[0].innerHTML = res;
+
+$(document).ready(function(){
+
+		$(".guess_block").click(function(){
+			//если все верно ответил тогда
+		if(true){
+			
+			//красим
+			this.style.backgroundColor = "#49CC44";
+			// показываем хорошо
+			
+			document.getElementById('good').style.display = "block";
+			setTimeout(function(){document.getElementById('good').style.display = "none";},2000);
+			
+			metka++;
+			
+			// если все правильно то переходим на след задание
+			if(metka  >= truth){
+		
+				
+			}
+		}
+				
+		// если нет то красим в красный
+		else{
+		this.style.backgroundColor = "#EB3B75";
+		
+		document.getElementById('bad').style.display = "block";
+		setTimeout(function(){document.getElementById('bad').style.display = "none";},2000);
+		
+		}
+		
+		});	
+		
+});
+
+</script>

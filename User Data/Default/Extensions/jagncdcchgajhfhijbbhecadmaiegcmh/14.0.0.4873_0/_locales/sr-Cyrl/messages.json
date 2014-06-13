@@ -1,0 +1,15 @@
+﻿{
+    "ExtensionName": {
+        "message": "Виртуелна тастатура",
+        "description": "Виртуелна тастатура"
+    },
+	
+    "ExtensionDescription": {
+        "message": "",
+        "description": ""
+    },
+	"TooltipText": {
+        "message": "Омогућен је безбедан унос са тастатуре",
+        "description": ""
+    }
+}

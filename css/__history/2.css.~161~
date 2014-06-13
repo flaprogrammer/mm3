@@ -1,0 +1,346 @@
+body{
+font: 12pt Arial;
+}
+
+.title{
+padding-top:33px;
+margin:0 auto;
+width:200px;
+height:25px;
+}
+
+.task_text{
+margin:0 auto;
+padding: 10px;
+min-height:25px;
+height: auto;
+color: #1c528c;
+font-size: 22pt;
+border-radius:15px;
+text-align: center;
+background-size: 50px 50px;
+border: 2px solid #1d96cd;
+
+
+background: #e0f3fa; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMTAwJSIgeDI9IjEwMCUiIHkyPSIwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjZTBmM2ZhIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMjAlIiBzdG9wLWNvbG9yPSIjYjhlMmY2IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMzklIiBzdG9wLWNvbG9yPSIjZDhmMGZjIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNjYlIiBzdG9wLWNvbG9yPSIjYjhlMmY2IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iODclIiBzdG9wLWNvbG9yPSIjZDhmMGZjIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2I2ZGZmZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+background: -moz-linear-gradient(45deg, #e0f3fa 0%, #b8e2f6 20%, #d8f0fc 39%, #b8e2f6 66%, #d8f0fc 87%, #b6dffd 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#e0f3fa), color-stop(20%,#b8e2f6), color-stop(39%,#d8f0fc), color-stop(66%,#b8e2f6), color-stop(87%,#d8f0fc), color-stop(100%,#b6dffd)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(45deg, #e0f3fa 0%,#b8e2f6 20%,#d8f0fc 39%,#b8e2f6 66%,#d8f0fc 87%,#b6dffd 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(45deg, #e0f3fa 0%,#b8e2f6 20%,#d8f0fc 39%,#b8e2f6 66%,#d8f0fc 87%,#b6dffd 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(45deg, #e0f3fa 0%,#b8e2f6 20%,#d8f0fc 39%,#b8e2f6 66%,#d8f0fc 87%,#b6dffd 100%); /* IE10+ */
+background: linear-gradient(45deg, #e0f3fa 0%,#b8e2f6 20%,#d8f0fc 39%,#b8e2f6 66%,#d8f0fc 87%,#b6dffd 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0f3fa', endColorstr='#b6dffd',GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
+
+
+}	
+
+#leftimage{
+margin: 0px 10px 10px 0px;
+float:left;
+opacity:0;
+
+}
+
+
+.content_block{
+width:auto;
+height:auto;
+margin: 0 auto;
+display: block;
+min-height: 400px;
+position: relative;
+}
+
+.content_choose{
+width:540px;
+height:455px;
+margin:0 auto;
+margin-left:50px;
+margin-top:10px;
+float:left;
+}
+
+.mesto{
+width:auto;
+min-width:120px;
+height:42px;
+margin:25px 25px 25px 25px;
+float:left;
+text-align: center;
+line-height: 12px;
+border-radius:12px;
+background-size: 50px 50px;
+background-color: #8EB8FA;
+background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                  transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                  transparent 75%, transparent);
+background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                  transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                  transparent 75%, transparent);
+background-image: linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                  transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                  transparent 75%, transparent);
+-pie-background: linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                 transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                 transparent 75%, transparent) 0 0 / 50px 50px #8EB8FA;
+}
+
+
+.guess_block{
+cursor: pointer;
+width:auto;
+min-width:120px;
+margin:25px;
+padding: 5px 20px 5px 20px;
+float:left;
+font: normal bold 18pt arial;
+text-align: center;
+border-radius:12px;
+border: 2px solid #f78800;
+background-size: 50px 50px;
+background-color: #ffca88;
+background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                  transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                  transparent 75%, transparent);
+background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                  transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                  transparent 75%, transparent);
+background-image: linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                  transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                  transparent 75%, transparent);
+-pie-background: linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                 transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                 transparent 75%, transparent) 0 0 / 50px 50px #bc4;
+}
+.guess_block:hover{
+background-color: #eafe67;
+}
+
+
+.koko{
+width:auto;
+min-width:120px;
+height:32px;
+margin:25px 25px 25px 25px;
+float:left;
+text-align: center;
+line-height: 25px;
+border-radius:12px;
+background-size: 50px 50px;
+background-color: "#49CC44";
+background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                  transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                  transparent 75%, transparent);
+background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                  transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                  transparent 75%, transparent);
+background-image: linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                  transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                  transparent 75%, transparent);
+-pie-background: linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                 transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                 transparent 75%, transparent) 0 0 / 50px 50px #bc4;
+}
+.taskcont {
+    display: table;
+    width: 100%;
+    box-sizing: border-box;  /* не поддерживается в CSS2 */
+    margin-left: 0;
+    margin-right: 0;
+    border-spacing: 10px;
+}
+
+.taskcont > div,
+.taskcont > noindex > div {
+    display: table-cell;
+    vertical-align: middle;
+    width: auto;
+    box-sizing: border-box;  /* не поддерживается в CSS2 */
+    
+    font-size: 18pt;
+font-weight: bold;
+}
+
+.left_text{
+position: relative;
+padding: 5px;
+vertical-align: middle;
+text-align: center;
+border-radius:12px;
+background-size: 50px 50px;
+background-color: orange;
+background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                  transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                  transparent 75%, transparent);
+background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                  transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                  transparent 75%, transparent);
+background-image: linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                  transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                  transparent 75%, transparent);
+-pie-background: linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                 transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                 transparent 75%, transparent) 0 0 / 50px 50px #bc4;
+}
+.leftimage {
+margin: 0 auto;
+position:relative;
+clear: both;
+display: block;
+}
+
+.middle_text,.right_text{
+margin: 25px 5px 5px 5px;
+vertical-align: middle;
+text-align: center;
+border-radius:12px;
+background-size: 50px 50px;
+}
+.middle_text{
+background-color: #ffff9f;
+border:2px dashed black;
+padding: 15px 20px 15px 20px;
+}
+.empty_place{
+width:auto;
+min-width:170px;
+height:55px;
+margin:0 auto;
+vertical-align: middle;
+text-align: center;
+border-radius:12px;
+background-size: 50px 50px;
+border:2px dashed green;
+background-color: white;
+border-spacing: 10px;
+}
+
+.right_text {
+padding: 15px 10px 15px 10px;
+background-color: #ccffeb;
+border: 2px dashed #0f9f7d;  
+max-width: 500px;               
+}
+
+.pre_text{
+width:auto;
+height:auto;
+padding:5px;
+position:relative;
+float:left;
+margin-bottom:55px;
+}
+
+.empty_place_one{
+width:90px;
+float:left;
+min-width:125px;
+height:40px;
+text-align: center;
+border-radius:12px;
+border:2px dashed green;
+background-color: white;
+border-spacing: 10px;
+
+}
+
+
+.guess_block_one{
+cursor: pointer;
+width:auto;
+min-width:120px;
+margin:5px;
+padding: 5px 2px 5px 2px;
+float:left;
+font: normal bold 18pt arial;
+text-align: center;
+border-radius:12px;
+border: 2px solid #0f9f7d;
+background-size: 50px 50px;
+background-color: #21efbc;
+background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                  transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                  transparent 75%, transparent);
+background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                  transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                  transparent 75%, transparent);
+background-image: linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                  transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                  transparent 75%, transparent);
+-pie-background: linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                 transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                 transparent 75%, transparent) 0 0 / 50px 50px #bc4;
+}
+.guess_block_one:hover{
+background-color: #fec667;
+}
+
+.left_text_one{
+position: relative;
+padding: 5px;
+width: 900px !important;
+height:200px;
+clear:both;
+vertical-align: middle;
+
+border-radius:12px;
+background-size: 50px 50px;
+background-color: orange;
+background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                  transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                  transparent 75%, transparent);
+background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                  transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                  transparent 75%, transparent);
+background-image: linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                  transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                  transparent 75%, transparent);
+-pie-background: linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                 transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                 transparent 75%, transparent) 0 0 / 50px 50px #bc4;
+}
+
+.full_text{
+height: auto;
+min-height: 55px;
+text-align: center;
+border-radius:12px;
+background-size: 50px 50px;
+border: 2px solid #0f9f7d;
+display: inline-block;
+vertical-align: middle;
+clear: right;
+background-size: 50px 50px;
+background-color: #21efbc;
+background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                  transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                  transparent 75%, transparent);
+background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                  transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                  transparent 75%, transparent);
+background-image: linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                  transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                  transparent 75%, transparent);
+-pie-background: linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                 transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                 transparent 75%, transparent) 0 0 / 50px 50px #bc4;
+
+}
+.full_text span{
+display: table-cell;
+vertical-align: middle;
+}
+#container{
+width:auto;
+height:auto;
+position: relative;
+min-height: 40px;
+}
+.wrap {
+	clear: both;
+	height: 5px;
+	display: block;
+	position: relative;
+}

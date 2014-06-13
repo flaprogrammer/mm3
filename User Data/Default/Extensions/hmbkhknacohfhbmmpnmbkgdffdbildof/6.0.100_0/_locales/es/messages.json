@@ -1,0 +1,77 @@
+{
+   "IDS_BADSWIPE_LOW_QUALITY": {
+      "message": "El resultado es de baja calidad."
+   },
+   "IDS_BADSWIPE_NO_MATCH": {
+      "message": "Sin coincidencia."
+   },
+   "IDS_BADSWIPE_TOO_FAST": {
+      "message": "Ha pasado demasiado r\u00E1pido."
+   },
+   "IDS_BADSWIPE_TOO_HIGH": {
+      "message": "Ha pasado demasiado alto."
+   },
+   "IDS_BADSWIPE_TOO_LEFT": {
+      "message": "Ha pasado demasiado a la izqueirda."
+   },
+   "IDS_BADSWIPE_TOO_LOW": {
+      "message": "Ha pasado demasiado bajo."
+   },
+   "IDS_BADSWIPE_TOO_RIGHT": {
+      "message": "Ha pasado demasiado a la derecha."
+   },
+   "IDS_BADSWIPE_TOO_SHORT": {
+      "message": "Ha pasado poco tiempo."
+   },
+   "IDS_BADSWIPE_TOO_SKEWED": {
+      "message": "Ha pasado demasiado torcido."
+   },
+   "IDS_BADSWIPE_TOO_SLOW": {
+      "message": "Ha pasado demasiado lento."
+   },
+   "IDS_ENTER_PASSWORD_NOTICE": {
+      "message": "Inicie sesi\u00F3n con su contrase\u00F1a maestra."
+   },
+   "IDS_INCORRECT_PASSWORD": {
+      "message": "La contrase\u00F1a es incorrecta."
+   },
+   "IDS_LEARN_MORE": {
+      "message": "m\u00E1s informaci\u00F3n"
+   },
+   "IDS_LOGIN_IN": {
+      "message": "Inicie sesi\u00F3n"
+   },
+   "IDS_NEVER_FOR_THIS_SITE": {
+      "message": "Nunca para este sitio"
+   },
+   "IDS_NO_FP_FOCUS": {
+      "message": "Se ha puesto en pausa la verificaci\u00F3n de la huella dactilar. Haga clic aqu\u00ED para continuar."
+   },
+   "IDS_SAVE_PASSWORD": {
+      "message": "Recordar contrase\u00F1a"
+   },
+   "IDS_SAVE_PASSWORD_NOTICE": {
+      "message": "\u00BFDesea que SimplePass recuerde su contrase\u00F1a para este sitio?"
+   },
+   "IDS_SWIPE_FINGER": {
+      "message": "Pase el dedo por el sensor para iniciar sesi\u00F3n en SimplePass."
+   },
+   "IDS_TYPE_MASTER_PASSWORD": {
+      "message": "Escriba la contrase\u00F1a maestra"
+   },
+   "IDS_USE_WINDOWS_PASSWORD": {
+      "message": "O escriba la contrase\u00F1a de Windows "
+   },
+   "editText": {
+      "message": "Editar tarjeta Web"
+   },
+   "reportText": {
+      "message": "Notificar problema"
+   },
+   "runAppText": {
+      "message": "Abrir SimplePass..."
+   },
+   "storeText": {
+      "message": "App Store"
+   }
+}

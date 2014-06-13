@@ -1,0 +1,30 @@
+{
+   "background": {
+      "page": "background/main.html",
+      "persistent": true
+   },
+   "browser_action": {
+      "default_icon": "images/logo.png",
+      "permissions": [ "tabs", "http://*/", "https://*/" ]
+   },
+   "content_scripts": [ {
+      "js": [ "background/lcr.js", "background/links_mode.js", "content_scripts/parse_url.js", "content_scripts/images.js", "content_scripts/content.js" ],
+      "matches": [ "\u003Call_urls\u003E" ],
+      "permissions": [ "tabs", "http://*/", "https://*/", "chrome://*/" ]
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_ExtensionDescription__",
+   "icons": {
+      "48": "images/linkfilter.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDoT5JIHtvANTHxjeMIDoDIO4GErND6wLGKz6RgVBh0MkCUgWriFtriQH9VEj2ie+T4pGHPLsFvOSNu3Qe62IX1uJObiArdfdbiT//IRBIlPl3mqwj3xH8+M4YLpkXEU3zX6oavtcxZpWDkQHB+5Pfp9IRo+az61Td4rgBZwxEAyQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "18.0.0.0",
+   "name": "__MSG_ExtensionName__",
+   "permissions": [ "contextMenus", "tabs", "http://*/", "https://*/" ],
+   "plugins": [ {
+      "path": "plugin/npUrlAdvisor.dll",
+      "public": true
+   } ],
+   "version": "14.0.0.4651"
+}

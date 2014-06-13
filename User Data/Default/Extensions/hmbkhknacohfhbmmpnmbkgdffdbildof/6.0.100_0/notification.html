@@ -1,0 +1,54 @@
+<html>
+<head>
+<script type="text/javascript" src="websiteLogonNotification.js"></script>
+<style type="text/css">
+</style>
+</head>
+<body onload="onLoad()">
+	<div id="wlo_notification" style="background-color: #e8e1c9;background-color: rgba(232,225,201,0.95);height:48px;width:100%;position:fixed;top:0px;left:0px;z-index: 2147482999;opacity:1.0;">
+		<table border="0" cellpadding="0" cellspacing="0" style="width:100%;height:48px;">
+			<tr>
+				<td style="width:32px;"><img id="wlo_logo" style="height:32px;width:32px;margin-top:2px;" src="images/logo_32.png"/></td>
+				<td id="wlo_notification_main" style="padding-left:7px;">
+					<div id="wlo_notification_logon" style="display:none;">
+						<button id="logon_content" style="float:left;border:none;background:none;margin:0px 20px 0px 0px;white-space:nowrap;height:24px;width:auto;font-family:Lucida Sans;font-size:14px;">Swipe your finger over the sensor to sign in with SimplePass.</button>
+						<table id="logon_table" border="0" cellpadding="0" cellspacing="0" style="float:left;">
+							<tr>
+								<td id="wlo_select_container">
+									<select id="user_name_select" style="-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;border:1px solid #000000;width:180px;height:24px;font-family:Lucida Sans;font-size:13px;">
+										<option value="user1">user1</option>
+										<option value="user2">user2</option>
+										<option value="user3">user3</option>
+									</select>
+								</td>
+								<td id="wlo_password_container">
+									<input id="use_password_info" type="text" value="use windows password" readonly="readonly"  style="margin:0px 3px;padding:0px;height:21px;width:180px;vertical-align:middle;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;padding:0px 3px;color:Gray;border:1px solid #000000;font-family:Lucida Sans;font-size:10px;"/>
+									<input id="use_password_input" type="password" style="margin:0px 3px;padding:0px;height:21px;width:180px;vertical-align:middle;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;padding:0px 3px;display:none;border:1px solid #000000;font-family:Lucida Sans;font-size:10px;"/>
+								</td>
+								<td><button id="logon_button" style="height:24px;min-width:100px;font-family:Lucida Sans;">Login</button></td>
+							</tr>
+						</table>
+					</div>
+					<div id="wlo_notification_register" style="display:none;">
+						<button id="register_content" style="float:left;border:none;background:none;margin:0px 20px 0px 0px;white-space:nowrap;height:24px;width:auto;font-family:Lucida Sans;font-size:14px;">Do you want SimplePass to remember your password for this site?</button>
+						<table id="register_table" border="0" cellpadding="0" cellspacing="0" style="float:left;">
+							<tr>
+								<td>
+									<button id="save_password_button" style="height:24px;min-width:150px;font-family:Lucida Sans;">Remember Password</button>
+								</td>
+								<td>
+									<button id="never_site_button" style="height:24px;min-width:150px;font-family:Lucida Sans;">Never for this site</button>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</td>
+				<td style="white-space:nowrap;width:40px;">
+					<a id="wlo_learn_more" style="color:#0066cc;font-family:Lucida Sans;font-size:13px;text-decoration:underline;" href="javascript:void(0);">learn more</a>
+				</td>
+				<td style="width:16px;padding-right:5px;"><img id="wlo_close" src="images/close.png" /></td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>

@@ -1,0 +1,77 @@
+{
+   "IDS_BADSWIPE_LOW_QUALITY": {
+      "message": "D\u00E5rligt trukket, lav kvalitet."
+   },
+   "IDS_BADSWIPE_NO_MATCH": {
+      "message": "Intet match."
+   },
+   "IDS_BADSWIPE_TOO_FAST": {
+      "message": "Trukket for hurtigt."
+   },
+   "IDS_BADSWIPE_TOO_HIGH": {
+      "message": "Trukket for h\u00F8jt."
+   },
+   "IDS_BADSWIPE_TOO_LEFT": {
+      "message": "Trukket for meget til venstre."
+   },
+   "IDS_BADSWIPE_TOO_LOW": {
+      "message": "Trukket for lavt."
+   },
+   "IDS_BADSWIPE_TOO_RIGHT": {
+      "message": "Trukket for meget til h\u00F8jre."
+   },
+   "IDS_BADSWIPE_TOO_SHORT": {
+      "message": "Trukket for kort."
+   },
+   "IDS_BADSWIPE_TOO_SKEWED": {
+      "message": "Trukket for sk\u00E6vt."
+   },
+   "IDS_BADSWIPE_TOO_SLOW": {
+      "message": "Trukket for langsomt."
+   },
+   "IDS_ENTER_PASSWORD_NOTICE": {
+      "message": "Tjek ind med dit hovedadgangskode."
+   },
+   "IDS_INCORRECT_PASSWORD": {
+      "message": "Din adgangskode er ikke korrekt."
+   },
+   "IDS_LEARN_MORE": {
+      "message": "l\u00E6s mere"
+   },
+   "IDS_LOGIN_IN": {
+      "message": "Login"
+   },
+   "IDS_NEVER_FOR_THIS_SITE": {
+      "message": "Aldrig for dette sted"
+   },
+   "IDS_NO_FP_FOCUS": {
+      "message": "Verifikation af fingeraftryk standset. Klik her for at forts\u00E6tte."
+   },
+   "IDS_SAVE_PASSWORD": {
+      "message": "Husk adgangskode"
+   },
+   "IDS_SAVE_PASSWORD_NOTICE": {
+      "message": "\u00D8nsker du, at SimplePass skal huske din adgangskode for dette sted?"
+   },
+   "IDS_SWIPE_FINGER": {
+      "message": "F\u00F8r din finger hen over f\u00F8leren for at logge ind med SimplePass."
+   },
+   "IDS_TYPE_MASTER_PASSWORD": {
+      "message": "Indtast master-adgangskoden"
+   },
+   "IDS_USE_WINDOWS_PASSWORD": {
+      "message": "Eller indtast din Windows-adgangskode"
+   },
+   "editText": {
+      "message": "Rediger webkort"
+   },
+   "reportText": {
+      "message": "Rapporter problem"
+   },
+   "runAppText": {
+      "message": "\u00C5bn SimplePass..."
+   },
+   "storeText": {
+      "message": "App Store"
+   }
+}

@@ -1,0 +1,21 @@
+{
+   "background": {
+      "page": "background/main.html",
+      "persistent": true
+   },
+   "default_locale": "en",
+   "description": "__MSG_ExtensionDescription__",
+   "icons": {
+      "48": "images/online_banking_extension_icon.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDfj9jOn2Y47hfhLO6bqSyOZ4tAs66cEc/PdJvC0ZHXkkc6X9LBF89b8H5oYmMyagx65hullQs0gIzia/TnhSZET978zW28df7JEQwLxS2pDDkgA05GawQnhufla22RN2hJkiFcuVHGj3oGoyAwMZzGSzEgkatFFZM9IyLTdk714QIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "18.0.0.0",
+   "name": "__MSG_ExtensionName__",
+   "permissions": [ "contextMenus", "tabs", "webRequest", "webRequestBlocking", "cookies", "http://*/", "https://*/" ],
+   "plugins": [ {
+      "path": "plugin/online_banking_npapi.dll",
+      "public": true
+   } ],
+   "version": "14.0.0.4651"
+}

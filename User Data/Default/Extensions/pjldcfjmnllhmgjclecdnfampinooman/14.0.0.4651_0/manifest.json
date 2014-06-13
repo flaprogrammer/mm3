@@ -1,0 +1,21 @@
+{
+   "background": {
+      "page": "background/main.html",
+      "persistent": true
+   },
+   "default_locale": "en",
+   "description": "__MSG_ExtensionDescription__",
+   "icons": {
+      "48": "images/kavab.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDC46Aua7nnXi5FBq08hX4n7W4M/LsRHMyETwlB52ZyeMLVcQgLIHvzs2DndSlkh5sAvUREdvsgic2bA7+g02noZYaOqxInN5csatXN9/hS5/BLLYGyqlkZrk8di7IQ5lOPdwnCS3tc8hmWvlT9FMLCJpz+d4SQgK31/q5l6c3SdwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "18.0.0.0",
+   "name": "__MSG_ExtensionName__",
+   "permissions": [ "contextMenus" ],
+   "plugins": [ {
+      "path": "plugin/npABPlugin.dll",
+      "public": true
+   } ],
+   "version": "14.0.0.4651"
+}

@@ -1,0 +1,28 @@
+{
+   "background": {
+      "page": "background/main.html",
+      "persistent": true
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "content_scripts/content.js" ],
+      "matches": [ "\u003Call_urls\u003E" ],
+      "permissions": [ "tabs", "http://*/", "https://*/", "chrome://*/" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_ExtensionDescription__",
+   "icons": {
+      "48": "images/content_blocker_icon.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwI5e/yRw3NVMxFCi2mfuV1p3xoccLnaohEYJALcC4pLWnBfSWLVJFw77RE/sCb+LnB6ALKROFU+Z+frTda4GJh5OmgAhEXvIj1u9C/icZmH4ZmC/jQ30ip+M8x13wRE07zqB3nWg8MKl+svkZJBr/x3IZiIVC2OZODYZlk85akwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "18.0.0.0",
+   "name": "__MSG_ExtensionName__",
+   "permissions": [ "contextMenus", "webNavigation", "webRequest", "webRequestBlocking", "tabs", "http://*/", "https://*/" ],
+   "plugins": [ {
+      "path": "plugin/content_blocker_npapi.dll",
+      "public": true
+   } ],
+   "version": "14.0.0.4651"
+}

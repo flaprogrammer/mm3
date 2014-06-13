@@ -1,0 +1,77 @@
+{
+   "IDS_BADSWIPE_LOW_QUALITY": {
+      "message": "Swipe bad, low quality."
+   },
+   "IDS_BADSWIPE_NO_MATCH": {
+      "message": "No match."
+   },
+   "IDS_BADSWIPE_TOO_FAST": {
+      "message": "Swipe too fast."
+   },
+   "IDS_BADSWIPE_TOO_HIGH": {
+      "message": "Swipe too high."
+   },
+   "IDS_BADSWIPE_TOO_LEFT": {
+      "message": "Swipe too left."
+   },
+   "IDS_BADSWIPE_TOO_LOW": {
+      "message": "Swipe too low."
+   },
+   "IDS_BADSWIPE_TOO_RIGHT": {
+      "message": "Swipe too right."
+   },
+   "IDS_BADSWIPE_TOO_SHORT": {
+      "message": "Swipe too short."
+   },
+   "IDS_BADSWIPE_TOO_SKEWED": {
+      "message": "Swipe too skewed."
+   },
+   "IDS_BADSWIPE_TOO_SLOW": {
+      "message": "Swipe too slow."
+   },
+   "IDS_ENTER_PASSWORD_NOTICE": {
+      "message": "Sign in with your master password."
+   },
+   "IDS_INCORRECT_PASSWORD": {
+      "message": "Your password is incorrect."
+   },
+   "IDS_LEARN_MORE": {
+      "message": "learn more"
+   },
+   "IDS_LOGIN_IN": {
+      "message": "Login"
+   },
+   "IDS_NEVER_FOR_THIS_SITE": {
+      "message": "Never for this site"
+   },
+   "IDS_NO_FP_FOCUS": {
+      "message": "Fingerprint verification paused. Click here to continue."
+   },
+   "IDS_SAVE_PASSWORD": {
+      "message": "Remember Password"
+   },
+   "IDS_SAVE_PASSWORD_NOTICE": {
+      "message": "Do you want SimplePass to remember your password for this site?"
+   },
+   "IDS_SWIPE_FINGER": {
+      "message": "Swipe your finger over the sensor to sign in with SimplePass."
+   },
+   "IDS_TYPE_MASTER_PASSWORD": {
+      "message": "Type master password"
+   },
+   "IDS_USE_WINDOWS_PASSWORD": {
+      "message": "Or type Windows password"
+   },
+   "editText": {
+      "message": "Edit Web Card"
+   },
+   "reportText": {
+      "message": "Report Issue"
+   },
+   "runAppText": {
+      "message": "Open SimplePass..."
+   },
+   "storeText": {
+      "message": "App Store"
+   }
+}

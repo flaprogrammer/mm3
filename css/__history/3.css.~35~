@@ -1,0 +1,236 @@
+
+.title{
+padding-top:33px;
+margin:0 auto;
+width:100px;
+height:25px;
+float:left;
+}
+
+
+.task_text{
+margin:0 auto;
+color:black;
+padding: 10px 0px;
+margin-top:40px;
+margin-bottom: 40px;
+line-height: normal;
+width:600px;
+border-radius:15px;
+text-align: center;
+background-size: 50px 50px;
+background-color: #5ce9c4;
+position:relative;
+font-size: 18pt; 
+clear: both;
+}	
+
+
+.leftimage {
+margin: 0 auto;
+position:relative;
+clear: both;
+display: block;
+}
+
+
+.content_block {
+width: auto;
+display: block;
+position: relative;
+height: auto;
+min-height: 700px;
+}
+
+.content_choose{
+width:540px;
+height:455px;
+margin:0 auto;
+margin-left:50px;
+margin-top:10px;
+float:left;
+}
+
+.mesto{
+width:auto;
+min-width:120px;
+height:42px;
+margin:25px 25px 25px 25px;
+float:left;
+text-align: center;
+line-height: 12px;
+border-radius:12px;
+background-size: 50px 50px;
+background-color: #8EB8FA;
+background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                  transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                  transparent 75%, transparent);
+background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                  transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                  transparent 75%, transparent);
+background-image: linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                  transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                  transparent 75%, transparent);
+-pie-background: linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                 transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                 transparent 75%, transparent) 0 0 / 50px 50px #8EB8FA;
+}
+
+
+.guess_block{
+width:auto;
+min-width:120px;
+height:42px;
+margin:25px 25px 25px 25px;
+float:left;
+text-align: center;
+line-height: 38px;
+border-radius:12px;
+background-size: 50px 50px;
+background-color: #bc4;
+background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                  transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                  transparent 75%, transparent);
+background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                  transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                  transparent 75%, transparent);
+background-image: linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                  transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                  transparent 75%, transparent);
+-pie-background: linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                 transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                 transparent 75%, transparent) 0 0 / 50px 50px #bc4;
+}
+
+
+.koko{
+width:auto;
+min-width:120px;
+height:32px;
+margin:25px 25px 25px 25px;
+float:left;
+text-align: center;
+line-height: 25px;
+border-radius:12px;
+background-size: 50px 50px;
+background-color: "#49CC44";
+background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                  transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                  transparent 75%, transparent);
+background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                  transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                  transparent 75%, transparent);
+background-image: linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                  transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                  transparent 75%, transparent);
+-pie-background: linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                 transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                 transparent 75%, transparent) 0 0 / 50px 50px #bc4;
+}
+
+.top_text{
+font-size:14pt; 
+display: block;
+width:640px;
+height: auto;
+min-height:80px;
+text-align: center;
+margin:0 auto;
+line-height: 100px;
+border-radius:12px;
+background-size: 50px 50px;
+background-color: pink;
+background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                  transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                  transparent 75%, transparent);
+background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                  transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                  transparent 75%, transparent);
+background-image: linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                  transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                  transparent 75%, transparent);
+-pie-background: linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                 transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                 transparent 75%, transparent) 0 0 / 50px 50px #bc4;
+}
+
+.middle_text{
+width:230px;
+height:420px;
+min-width:120px;
+margin:25px 0px 0px 0px;
+float:left;
+text-align: center;
+border-radius:12px;
+background-size: 50px 50px;
+border:2px dashed black;
+}
+
+.right_text{
+width:635px;
+height:auto;
+margin:0 auto;
+text-align: center;
+border-radius:12px;
+background-size: 50px 50px;
+}
+
+.empty_place{
+width:auto;
+min-width:170px;
+height:55px;
+margin:25px 25px 25px 25px;
+float:left;
+text-align: center;
+line-height: 38px;
+border-radius:12px;
+background-size: 50px 50px;
+border:2px dashed green;
+}
+
+.full_text{
+width:580px;
+min-width:260px;
+min-height:42px;
+height:auto;
+margin:15px 15px 25px 25px;
+float:left;
+text-align: center;
+line-height: 38px;
+border-radius: 20%;
+background-size: 50px 50px;
+border:2px solid black;
+opacity:0;
+}
+
+.color_text{
+display: inline-block;
+padding: 5px;
+width:auto;
+height:auto;
+margin:0px 0px 0px 5px;
+text-align: center;
+line-height: 38px;
+cursor: pointer;
+}
+
+.color_text:hover{
+border-radius: 20%;
+background-color: #bc4;
+background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                  transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                  transparent 75%, transparent);
+background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                  transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                  transparent 75%, transparent);
+background-image: linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                  transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                  transparent 75%, transparent);
+-pie-background: linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                 transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                 transparent 75%, transparent) 0 0 / 50px 50px #bc4;
+
+
+
+}
+

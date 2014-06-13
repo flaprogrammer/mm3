@@ -1,0 +1,15 @@
+﻿{
+    "ExtensionName": {
+        "message": "虛擬鍵盤",
+        "description": "虛擬鍵盤"
+    },
+	
+    "ExtensionDescription": {
+        "message": "",
+        "description": ""
+    },
+	"TooltipText": {
+        "message": "已啟動安全資料輸入",
+        "description": ""
+    }
+}

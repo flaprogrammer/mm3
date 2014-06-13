@@ -1,0 +1,77 @@
+{
+   "IDS_BADSWIPE_LOW_QUALITY": {
+      "message": "Veeg van lage kwaliteit."
+   },
+   "IDS_BADSWIPE_NO_MATCH": {
+      "message": "Geen overeenkomst."
+   },
+   "IDS_BADSWIPE_TOO_FAST": {
+      "message": "Veeg te snel."
+   },
+   "IDS_BADSWIPE_TOO_HIGH": {
+      "message": "Veeg te hoog."
+   },
+   "IDS_BADSWIPE_TOO_LEFT": {
+      "message": "Veeg te veel links."
+   },
+   "IDS_BADSWIPE_TOO_LOW": {
+      "message": "Veeg te laag."
+   },
+   "IDS_BADSWIPE_TOO_RIGHT": {
+      "message": "Veeg te veel rechts."
+   },
+   "IDS_BADSWIPE_TOO_SHORT": {
+      "message": "Veeg te kort."
+   },
+   "IDS_BADSWIPE_TOO_SKEWED": {
+      "message": "Veeg te scheef."
+   },
+   "IDS_BADSWIPE_TOO_SLOW": {
+      "message": "Veeg te langzaam."
+   },
+   "IDS_ENTER_PASSWORD_NOTICE": {
+      "message": "Meld u aan met uw hoofdwachtwoord."
+   },
+   "IDS_INCORRECT_PASSWORD": {
+      "message": "Het wachtwoord is onjuist."
+   },
+   "IDS_LEARN_MORE": {
+      "message": "meer informatie"
+   },
+   "IDS_LOGIN_IN": {
+      "message": "Aanmelden"
+   },
+   "IDS_NEVER_FOR_THIS_SITE": {
+      "message": "Nooit voor deze site"
+   },
+   "IDS_NO_FP_FOCUS": {
+      "message": "Vingerafdrukverificatie is gepauzeerd. Klik hier om door te gaan."
+   },
+   "IDS_SAVE_PASSWORD": {
+      "message": "Wachtwoord onthouden"
+   },
+   "IDS_SAVE_PASSWORD_NOTICE": {
+      "message": "Wilt u dat uw wachtwoord voor deze site door SimplePass wordt onthouden?"
+   },
+   "IDS_SWIPE_FINGER": {
+      "message": "Veeg met uw vinger over de sensor om u aan te melden bij SimplePass."
+   },
+   "IDS_TYPE_MASTER_PASSWORD": {
+      "message": "Hoofdwachtwoord typen"
+   },
+   "IDS_USE_WINDOWS_PASSWORD": {
+      "message": "Of Windows-wachtwoord typen"
+   },
+   "editText": {
+      "message": "Webkaarten bewerken"
+   },
+   "reportText": {
+      "message": "Probleem rapporteren"
+   },
+   "runAppText": {
+      "message": "SimplePass openen..."
+   },
+   "storeText": {
+      "message": "App Store"
+   }
+}

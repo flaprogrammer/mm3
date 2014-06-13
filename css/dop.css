@@ -1,0 +1,92 @@
+body{
+font: 12pt Arial;
+
+}
+#good,#bad{
+position: absolute;
+cursor: pointer;
+display:none;
+z-index:999;
+bottom:0px;
+left:160px;
+}
+.titlesuzlek {
+	font-size: 18pt;
+	color: #c146ac;
+	
+}
+.blocksuzlek {
+	height: 720px;
+	overflow-y: scroll; 
+}
+
+/* нопка скрыть-развернуть*/
+#raz, #skryt {
+ display: none;
+  opacity: 0.1;
+}
+
+label[for="raz"]{ /* вид CSS кнопки */
+  padding: 0px 0px;
+  border-radius: 2px;
+	font-size: 18pt;
+	color: #c146ac;
+  cursor: pointer; 
+
+  clear: both;
+  margin-bottom: 20px;
+}
+label[for="raz"] img{ /* вид CSS кнопки */
+  margin-right: 3px; 
+}
+
+#raz:checked ~ label[for="raz"] {
+ color: #6c6c6c;
+}
+#raz:hover ~ label[for="raz"] {
+ color: #545454;
+}
+#raz:checked ~ #skryt {
+	display: block;
+   opacity: 1;
+   font-size: 12pt;
+   line-height: 20pt !important;
+   color: #808080;
+}
+
+/* нопка скрыть-развернуть*/
+#raz1, #skryt1,#raz2, #skryt2,#raz3, #skryt3 {
+ display: none;
+  opacity: 0.1;
+}
+
+label[for="raz1"],label[for="raz2"],label[for="raz3"]{ /* вид CSS кнопки */
+  padding: 0px 0px;
+  border-radius: 2px;
+	font-size: 18pt;
+	color: #c146ac;
+  cursor: pointer; 
+
+  clear: both;
+  margin-bottom: 20px;
+}
+label[for="raz1"] img,label[for="raz2"] img,label[for="raz3"] img{ /* вид CSS кнопки */
+  margin-right: 3px; 
+}
+
+#raz1:checked ~ label[for="raz1"],#raz2:checked ~ label[for="raz2"],#raz3:checked ~ label[for="raz3"] {
+ color: #6c6c6c;
+}
+#raz1:hover ~ label[for="raz1"],#raz2:hover ~ label[for="raz2"],#raz3:hover ~ label[for="raz3"] {
+ color: #545454;
+}
+#raz1:checked ~ #skryt1,#raz2:checked ~ #skryt2,#raz3:checked ~ #skryt3 {
+	display: block;
+   opacity: 1;
+   font-size: 12pt;
+   line-height: 20pt !important;
+   color: #808080;
+}
+.blocksuzlek label{
+	margin-bottom: 30px !important;
+}

@@ -1,0 +1,161 @@
+﻿<script src="../js/jquery.min.js"></script>
+ <script src="../js/jquery-ui.min.js"></script>
+	   <script src="../js/main.js"></script>
+	   <script src="list.js"></script>
+  <link href="../css/3.css" rel="stylesheet">
+  <link href="../css/dop.css" rel="stylesheet">	 
+
+	<div class="content_block"> 
+			
+			<img class="leftimage" src="../img/2.png">
+			
+			
+		
+	
+		<div class="task_text">Сорауларга җавапларны тап.</div>
+<img src="../img/ico_sound.png" onClick="document.getElementById('textsound').play();">
+	<div class="top_text" title="Нажми и будет звук">   </div>
+	
+	
+
+	<div class="right_text" id="container"> 
+	
+	<div class="full_text"> </div>
+	
+	</div>
+            <div id="good"  class="make_mark"> <img src="../img/good.png" width=300 height=250></div>
+			<div id="bad" class="make_mark" ><img src="../img/bad.png" width=300 height=250></div>
+
+	</div>
+	
+	
+	<audio id="textsound" src="../audio/1.mp3"> </audio>
+	
+	<audio id="q1" src="../audio/1.1.mp3"> </audio>
+	<audio id="q2" src="../audio/1.2.mp3"> </audio>
+	<audio id="q3" src="../audio/1.3.mp3"> </audio>
+	<audio id="q4" src="../audio/1.4.mp3"> </audio>
+
+	
+<script>
+
+var currentFileAll = location.href.match(/[^/]+\.html/i)[0];
+var currentFile = currentFileAll.substr(0,currentFileAll.length-5);
+   
+    Object.size = function(obj) {
+    var size = 0, key;
+    for (key in obj) {
+        if (obj.hasOwnProperty(key)) size++;
+    }
+    return size;
+};
+
+shuffle = function(o){
+for(var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
+return o;
+}
+var currentQuestion = 0;
+
+var input = ["боеру","өндәү","нокта"];
+var quest = ["Боеру җөмлә ... интонациясе белән әйтелә.", "Аның ахырына ... тамгасы куела.", "Тыныч тавыш белән әйтелсә, боеру җөмләдән соң ... да куелырга мөмкин."];
+
+var randmas2 = [];
+for(var i=0; i<input.length; i++) {
+	randmas2.push(i);
+}
+var randmas = shuffle(randmas2);
+
+var text = [];
+for(var i=0; i<input.length; i++) {
+	text[i] = input[randmas[i]];
+}
+
+var trueQuestion = randmas.indexOf(currentQuestion);
+
+var metka = 0;
+var size1 = text.length;
+var size = quest.length;
+ //all.sort(function() {return .7 - Math.random();});
+
+		// генерируем вопроссы  
+	var str1='<div class="full_text" hidden=true title="Нажми и будет звук" "'	
+			var str2='</div>';
+			var res="";
+		for(var i = 0; i< size; i++){
+			res = res + str1 + 'id ="'+"s"+i +'"'+ "onClick=document.getElementById('q"+i+"').play();>" + quest[i] + str2;
+		}
+		document.getElementById('container').innerHTML = res;
+		
+	var str11='<div class="color_text"';
+			var str22='</div>';
+			var res1="";
+		for(var i = 0; i< size1; i++){
+			res1 = res1 + str11 + 'id ="'+i +'">' + text[i] + str22;
+		}
+		document.getElementsByClassName('top_text')[0].innerHTML = res1;
+
+		$(".color_text").click(function(){
+			//если все верно ответил тогда
+		if(this.id == trueQuestion){
+			document.getElementsByClassName('full_text')[randmas[trueQuestion]].hidden = "true";
+			currentQuestion++;
+			trueQuestion = randmas.indexOf(currentQuestion);
+			//красим
+			this.style.backgroundColor = "#44CC44";
+			this.style.borderRadius = "20%";
+			// показываем хорошо
+			
+			document.getElementById('good').style.display = "block";
+			setTimeout(function(){document.getElementById('good').style.display = "none";},2000);
+			metka++;
+			
+			document.getElementsByClassName('full_text')[currentQuestion].style.opacity='1';
+			document.getElementsByClassName('full_text')[currentQuestion].hidden = "";
+		
+			// если все правильно то переходим на след задание
+			if(currentQuestion  >= size1){
+				if(list[currentFile]) {
+						setTimeout(function(){location.href = list[currentFile]+".html";},5000);document.getElementById('good').style.display = "block";
+				}			
+			}
+			}
+				
+		else{
+			this.style.backgroundColor = "red";
+			this.style.borderRadius = "20%";
+			document.getElementById('bad').style.display = "block";
+			setTimeout(function(){document.getElementById('bad').style.display = "none";},2000);
+			}
+				
+				
+				
+				
+		
+		 });
+		 
+		 	document.getElementsByClassName('full_text')[0].hidden = "";
+			document.getElementsByClassName('full_text')[0].style.opacity='1';
+	
+	/*	
+	$(function(){
+	$( ".guess_block" ).draggable({revertDuration:2000,revert: "valid"});
+	
+    $( ".empty_place" ).droppable({
+      drop: function( event, ui ) {	
+		if($(this).attr("id")[1] == ui.draggable.attr("id")){
+			$('#'+ui.draggable.attr('id')).draggable({ revert: "invalid"}).animate({opacity:0.5},"slow").draggable( "disable" );
+				metka ++;
+				$('#good').animate({'opacity': 1}).animate({'opacity': 0});
+			
+				if(metka  >= size1){setTimeout(function(){location.href ="1.2.html";},5000);$('#good').animate({'opacity': 1});}
+			}
+			  else{ $('#bad').animate({'opacity': 1}).animate({'opacity': 0});}
+      }
+    });
+  });*/
+   
+
+// Get the size of an object
+
+  </script>
+

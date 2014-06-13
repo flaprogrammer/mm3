@@ -1,0 +1,77 @@
+{
+   "IDS_BADSWIPE_LOW_QUALITY": {
+      "message": "Passaggio di scarsa qualit\u00E0."
+   },
+   "IDS_BADSWIPE_NO_MATCH": {
+      "message": "Nessuna corrispondenza."
+   },
+   "IDS_BADSWIPE_TOO_FAST": {
+      "message": "Passaggio troppo veloce."
+   },
+   "IDS_BADSWIPE_TOO_HIGH": {
+      "message": "Passaggio troppo in alto."
+   },
+   "IDS_BADSWIPE_TOO_LEFT": {
+      "message": "Passaggio troppo a sinistra."
+   },
+   "IDS_BADSWIPE_TOO_LOW": {
+      "message": "Passaggio troppo in basso."
+   },
+   "IDS_BADSWIPE_TOO_RIGHT": {
+      "message": "Passaggio troppo a destra."
+   },
+   "IDS_BADSWIPE_TOO_SHORT": {
+      "message": "Passaggio troppo breve."
+   },
+   "IDS_BADSWIPE_TOO_SKEWED": {
+      "message": "Passaggio troppo obliquo."
+   },
+   "IDS_BADSWIPE_TOO_SLOW": {
+      "message": "Passaggio troppo lento."
+   },
+   "IDS_ENTER_PASSWORD_NOTICE": {
+      "message": "Accedere con la password master."
+   },
+   "IDS_INCORRECT_PASSWORD": {
+      "message": "Password non corretta."
+   },
+   "IDS_LEARN_MORE": {
+      "message": "Per saperne di pi\u00F9"
+   },
+   "IDS_LOGIN_IN": {
+      "message": "Accesso"
+   },
+   "IDS_NEVER_FOR_THIS_SITE": {
+      "message": "Mai per questo sito"
+   },
+   "IDS_NO_FP_FOCUS": {
+      "message": "Pausa verifica impronta digitale. Fare clic qui per continuare."
+   },
+   "IDS_SAVE_PASSWORD": {
+      "message": "Ricorda la password"
+   },
+   "IDS_SAVE_PASSWORD_NOTICE": {
+      "message": "Si desidera che SimplePass salvi la password per questo sito?"
+   },
+   "IDS_SWIPE_FINGER": {
+      "message": "Passare il dito sul sensore per accedere a SimplePass."
+   },
+   "IDS_TYPE_MASTER_PASSWORD": {
+      "message": "Digitare la password master"
+   },
+   "IDS_USE_WINDOWS_PASSWORD": {
+      "message": "Oppure digitare la password di Windows"
+   },
+   "editText": {
+      "message": "Modifica scheda Web"
+   },
+   "reportText": {
+      "message": "Segnala problema"
+   },
+   "runAppText": {
+      "message": "Apri SimplePass..."
+   },
+   "storeText": {
+      "message": "App Store"
+   }
+}

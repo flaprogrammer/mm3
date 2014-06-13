@@ -1,0 +1,77 @@
+{
+   "IDS_BADSWIPE_LOW_QUALITY": {
+      "message": "Pohyb prsta je nespr\u00E1vny, nedostato\u010Dn\u00FD."
+   },
+   "IDS_BADSWIPE_NO_MATCH": {
+      "message": "\u017Diadna zhoda."
+   },
+   "IDS_BADSWIPE_TOO_FAST": {
+      "message": "Pohyb prsta je pr\u00EDli\u0161 r\u00FDchly."
+   },
+   "IDS_BADSWIPE_TOO_HIGH": {
+      "message": "Pohyb prsta pr\u00EDli\u0161 vysoko."
+   },
+   "IDS_BADSWIPE_TOO_LEFT": {
+      "message": "Pohyb prsta pr\u00EDli\u0161 v\u013Eavo."
+   },
+   "IDS_BADSWIPE_TOO_LOW": {
+      "message": "Pohyb prsta pr\u00EDli\u0161 n\u00EDzko."
+   },
+   "IDS_BADSWIPE_TOO_RIGHT": {
+      "message": "Pohyb prsta pr\u00EDli\u0161 vpravo."
+   },
+   "IDS_BADSWIPE_TOO_SHORT": {
+      "message": "Pohyb prsta je pr\u00EDli\u0161 kr\u00E1tky."
+   },
+   "IDS_BADSWIPE_TOO_SKEWED": {
+      "message": "Pohyb prsta je pr\u00EDli\u0161 \u0161ikm\u00FD."
+   },
+   "IDS_BADSWIPE_TOO_SLOW": {
+      "message": "Pohyb prsta je pr\u00EDli\u0161 pomal\u00FD."
+   },
+   "IDS_ENTER_PASSWORD_NOTICE": {
+      "message": "Prihl\u00E1ste sa pomocou svojho hlavn\u00E9ho hesla."
+   },
+   "IDS_INCORRECT_PASSWORD": {
+      "message": "Zadan\u00E9 heslo je nespr\u00E1vne."
+   },
+   "IDS_LEARN_MORE": {
+      "message": "zisti\u0165 viac"
+   },
+   "IDS_LOGIN_IN": {
+      "message": "Prihl\u00E1si\u0165 sa"
+   },
+   "IDS_NEVER_FOR_THIS_SITE": {
+      "message": "Nikdy pre t\u00FAto lokalitu"
+   },
+   "IDS_NO_FP_FOCUS": {
+      "message": "Overovanie odtla\u010Dku prstu je pozastaven\u00E9. Ak chcete pokra\u010Dova\u0165, kliknite sem."
+   },
+   "IDS_SAVE_PASSWORD": {
+      "message": "Zapam\u00E4ta\u0165 si heslo"
+   },
+   "IDS_SAVE_PASSWORD_NOTICE": {
+      "message": "Chcete, aby si program SimplePass pre t\u00FAto lokalitu pam\u00E4tal va\u0161e heslo?"
+   },
+   "IDS_SWIPE_FINGER": {
+      "message": "Ak sa chcete prihl\u00E1si\u0165 pomocou programu SimplePass, prejdite svojim prstom cez sn\u00EDma\u010D."
+   },
+   "IDS_TYPE_MASTER_PASSWORD": {
+      "message": "Zada\u0165 hlavn\u00E9 heslo"
+   },
+   "IDS_USE_WINDOWS_PASSWORD": {
+      "message": "Alebo zada\u0165 heslo Windows"
+   },
+   "editText": {
+      "message": "Upravi\u0165 webkartu"
+   },
+   "reportText": {
+      "message": "Ozn\u00E1mi\u0165 probl\u00E9m"
+   },
+   "runAppText": {
+      "message": "Otvori\u0165 SimplePass..."
+   },
+   "storeText": {
+      "message": "App Store"
+   }
+}

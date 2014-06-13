@@ -1,0 +1,15 @@
+﻿{
+    "ExtensionName": {
+        "message": "虚拟键盘",
+        "description": "虚拟键盘"
+    },
+	
+    "ExtensionDescription": {
+        "message": "",
+        "description": ""
+    },
+	"TooltipText": {
+        "message": "已启用安全键盘输入",
+        "description": ""
+    }
+}

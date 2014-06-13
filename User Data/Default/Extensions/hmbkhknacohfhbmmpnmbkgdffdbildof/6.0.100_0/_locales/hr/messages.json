@@ -1,0 +1,77 @@
+{
+   "IDS_BADSWIPE_LOW_QUALITY": {
+      "message": "Lo\u0161e, nekvalitetno prela\u017Eenje prstom."
+   },
+   "IDS_BADSWIPE_NO_MATCH": {
+      "message": "Ne podudaraju se."
+   },
+   "IDS_BADSWIPE_TOO_FAST": {
+      "message": "Prebrzo prela\u017Eenje prstom."
+   },
+   "IDS_BADSWIPE_TOO_HIGH": {
+      "message": "Previsoko prela\u017Eenje prstom."
+   },
+   "IDS_BADSWIPE_TOO_LEFT": {
+      "message": "Prela\u017Eenje prstom previ\u0161e na lijevoj strani."
+   },
+   "IDS_BADSWIPE_TOO_LOW": {
+      "message": "Prenisko prela\u017Eenje prstom."
+   },
+   "IDS_BADSWIPE_TOO_RIGHT": {
+      "message": "Prela\u017Eenje prstom previ\u0161e na desnoj strani."
+   },
+   "IDS_BADSWIPE_TOO_SHORT": {
+      "message": "Prekratko prela\u017Eenje prstom."
+   },
+   "IDS_BADSWIPE_TOO_SKEWED": {
+      "message": "Prela\u017Eenje prstom previ\u0161e ukoso."
+   },
+   "IDS_BADSWIPE_TOO_SLOW": {
+      "message": "Presporo prela\u017Eenje prstom."
+   },
+   "IDS_ENTER_PASSWORD_NOTICE": {
+      "message": "Prijavite se putem svoje glavne lozinke."
+   },
+   "IDS_INCORRECT_PASSWORD": {
+      "message": "Va\u0161a lozinka nije to\u010Dna."
+   },
+   "IDS_LEARN_MORE": {
+      "message": "Saznajte vi\u0161e"
+   },
+   "IDS_LOGIN_IN": {
+      "message": "Prijava"
+   },
+   "IDS_NEVER_FOR_THIS_SITE": {
+      "message": "Nikad za ovo web-mjesto"
+   },
+   "IDS_NO_FP_FOCUS": {
+      "message": "Provjera otska prsta privremeno je zaustavljena. Da biste nastavili, kliknite ovdje."
+   },
+   "IDS_SAVE_PASSWORD": {
+      "message": "Zapamti lozinku"
+   },
+   "IDS_SAVE_PASSWORD_NOTICE": {
+      "message": "\u017Delite li da SimplePass zapamti va\u0161u lozinku za ovo web-mjesto?"
+   },
+   "IDS_SWIPE_FINGER": {
+      "message": "Prije\u0111ite prstom preko senzora da biste se prijavili pomo\u0107u zna\u010Dajke SimplePass."
+   },
+   "IDS_TYPE_MASTER_PASSWORD": {
+      "message": "Upi\u0161ite glavnu lozinku"
+   },
+   "IDS_USE_WINDOWS_PASSWORD": {
+      "message": "Ili upi\u0161ite lozinku za Windows"
+   },
+   "editText": {
+      "message": "Uredi web karticu"
+   },
+   "reportText": {
+      "message": "Prijavi problem"
+   },
+   "runAppText": {
+      "message": "Otvori SimplePass..."
+   },
+   "storeText": {
+      "message": "App Store"
+   }
+}

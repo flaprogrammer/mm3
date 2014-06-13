@@ -1,0 +1,15 @@
+﻿{
+    "ExtensionName": {
+        "message": "Virtuelna tastatura",
+        "description": "Virtuelna tastatura"
+    },
+	
+    "ExtensionDescription": {
+        "message": "",
+        "description": ""
+    },
+	"TooltipText": {
+        "message": "Omogućen je bezbedan unos sa tastature",
+        "description": ""
+    }
+}

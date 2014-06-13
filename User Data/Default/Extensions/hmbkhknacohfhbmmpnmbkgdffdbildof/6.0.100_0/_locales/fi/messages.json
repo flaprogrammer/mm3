@@ -1,0 +1,77 @@
+{
+   "IDS_BADSWIPE_LOW_QUALITY": {
+      "message": "Huono, heikkolaatuinen pyyhk\u00E4isy."
+   },
+   "IDS_BADSWIPE_NO_MATCH": {
+      "message": "Ei vastaavaa tietoa."
+   },
+   "IDS_BADSWIPE_TOO_FAST": {
+      "message": "Liian nopea pyyhk\u00E4isy."
+   },
+   "IDS_BADSWIPE_TOO_HIGH": {
+      "message": "Liian korkea pyyhk\u00E4isy."
+   },
+   "IDS_BADSWIPE_TOO_LEFT": {
+      "message": "Pyyhk\u00E4isy liikaa vasemmalla."
+   },
+   "IDS_BADSWIPE_TOO_LOW": {
+      "message": "Liian matala pyyhk\u00E4isy."
+   },
+   "IDS_BADSWIPE_TOO_RIGHT": {
+      "message": "Pyyhk\u00E4isy liikaa oikealla."
+   },
+   "IDS_BADSWIPE_TOO_SHORT": {
+      "message": "Liian lyhyt pyyhk\u00E4isy."
+   },
+   "IDS_BADSWIPE_TOO_SKEWED": {
+      "message": "Pyyhk\u00E4isy liian vinossa."
+   },
+   "IDS_BADSWIPE_TOO_SLOW": {
+      "message": "Liian hidas pyyhk\u00E4isy."
+   },
+   "IDS_ENTER_PASSWORD_NOTICE": {
+      "message": "Kirjaudu sis\u00E4\u00E4n p\u00E4\u00E4salasanallasi."
+   },
+   "IDS_INCORRECT_PASSWORD": {
+      "message": "V\u00E4\u00E4r\u00E4 salasana."
+   },
+   "IDS_LEARN_MORE": {
+      "message": "katso lis\u00E4\u00E4"
+   },
+   "IDS_LOGIN_IN": {
+      "message": "Kirjaudu"
+   },
+   "IDS_NEVER_FOR_THIS_SITE": {
+      "message": "Ei koskaan t\u00E4lle sivustolle"
+   },
+   "IDS_NO_FP_FOCUS": {
+      "message": "Sormenj\u00E4lkitunnistus keskeytetty. Jatka napsauttamalla t\u00E4st\u00E4."
+   },
+   "IDS_SAVE_PASSWORD": {
+      "message": "Muista salasana"
+   },
+   "IDS_SAVE_PASSWORD_NOTICE": {
+      "message": "Haluatko, ett\u00E4 SimplePass muistaa salasanasi t\u00E4lle sivustolle?"
+   },
+   "IDS_SWIPE_FINGER": {
+      "message": "Kirjaudu SimplePass'iin pyyhkim\u00E4ll\u00E4 sormellasi tunnistimen yli."
+   },
+   "IDS_TYPE_MASTER_PASSWORD": {
+      "message": "Kirjoita p\u00E4\u00E4salasanasi"
+   },
+   "IDS_USE_WINDOWS_PASSWORD": {
+      "message": "Tai kirjoita Windows-salasana"
+   },
+   "editText": {
+      "message": "Muokkaa WWW-korttia"
+   },
+   "reportText": {
+      "message": "Ilmoita ongelma"
+   },
+   "runAppText": {
+      "message": "Avaa SimplePass..."
+   },
+   "storeText": {
+      "message": "App Store"
+   }
+}

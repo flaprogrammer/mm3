@@ -1,0 +1,77 @@
+{
+   "IDS_BADSWIPE_LOW_QUALITY": {
+      "message": "Dragning d\u00E5lig, l\u00E5g kvalitet."
+   },
+   "IDS_BADSWIPE_NO_MATCH": {
+      "message": "Ingen matchning."
+   },
+   "IDS_BADSWIPE_TOO_FAST": {
+      "message": "Dragningen f\u00F6r snabb."
+   },
+   "IDS_BADSWIPE_TOO_HIGH": {
+      "message": "Dragningen f\u00F6r h\u00F6g."
+   },
+   "IDS_BADSWIPE_TOO_LEFT": {
+      "message": "Dragningen f\u00F6r l\u00E5ngt \u00E5t v\u00E4nster."
+   },
+   "IDS_BADSWIPE_TOO_LOW": {
+      "message": "Dragningen f\u00F6r l\u00E5g."
+   },
+   "IDS_BADSWIPE_TOO_RIGHT": {
+      "message": "Dragningen f\u00F6r l\u00E5ngt \u00E5t h\u00F6ger."
+   },
+   "IDS_BADSWIPE_TOO_SHORT": {
+      "message": "Dragningen f\u00F6r kort."
+   },
+   "IDS_BADSWIPE_TOO_SKEWED": {
+      "message": "Dragningen f\u00F6r sned."
+   },
+   "IDS_BADSWIPE_TOO_SLOW": {
+      "message": "Dragningen f\u00F6r l\u00E5ngsam."
+   },
+   "IDS_ENTER_PASSWORD_NOTICE": {
+      "message": "Logga in med ditt huvudl\u00F6senord"
+   },
+   "IDS_INCORRECT_PASSWORD": {
+      "message": "Ditt l\u00F6senord \u00E4r felaktigt."
+   },
+   "IDS_LEARN_MORE": {
+      "message": "l\u00E4s mer"
+   },
+   "IDS_LOGIN_IN": {
+      "message": "Logga in"
+   },
+   "IDS_NEVER_FOR_THIS_SITE": {
+      "message": "Aldrig f\u00F6r denna webbplats"
+   },
+   "IDS_NO_FP_FOCUS": {
+      "message": "Verifieringen av fingeravtrycket har pausats. Klicka h\u00E4r om du vill forts\u00E4tta."
+   },
+   "IDS_SAVE_PASSWORD": {
+      "message": "Kom ih\u00E5g l\u00F6senord"
+   },
+   "IDS_SAVE_PASSWORD_NOTICE": {
+      "message": "Vill du att SimplePass ska komma ih\u00E5g ditt l\u00F6senord f\u00F6r den h\u00E4r webbplatsen?"
+   },
+   "IDS_SWIPE_FINGER": {
+      "message": "Dra fingret \u00F6ver sensorn om du vill logga in med SimplePass."
+   },
+   "IDS_TYPE_MASTER_PASSWORD": {
+      "message": "Skriv huvudl\u00F6senordet"
+   },
+   "IDS_USE_WINDOWS_PASSWORD": {
+      "message": "Eller skriv l\u00F6senordet f\u00F6r Windows"
+   },
+   "editText": {
+      "message": "Redigera webbkort"
+   },
+   "reportText": {
+      "message": "Rapportera fel"
+   },
+   "runAppText": {
+      "message": "\u00D6ppna SimplePass"
+   },
+   "storeText": {
+      "message": "App Store"
+   }
+}

@@ -1,0 +1,14 @@
+{
+   "ExtensionDescription": {
+      "description": "",
+      "message": ""
+   },
+   "ExtensionName": {
+      "description": "Clavier virtuel",
+      "message": "Clavier virtuel"
+   },
+   "TooltipText": {
+      "description": "",
+      "message": "La protection de la saisie au clavier est activ\u00E9e"
+   }
+}

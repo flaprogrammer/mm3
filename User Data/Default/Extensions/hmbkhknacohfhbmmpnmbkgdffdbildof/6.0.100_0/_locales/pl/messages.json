@@ -1,0 +1,77 @@
+{
+   "IDS_BADSWIPE_LOW_QUALITY": {
+      "message": "Nieprawid\u0142owe przesuni\u0119cie, s\u0142aba jako\u015B\u0107"
+   },
+   "IDS_BADSWIPE_NO_MATCH": {
+      "message": "Nie znaleziono."
+   },
+   "IDS_BADSWIPE_TOO_FAST": {
+      "message": "Przesuni\u0119cie za szybkie"
+   },
+   "IDS_BADSWIPE_TOO_HIGH": {
+      "message": "Przesuni\u0119cie za wysoko"
+   },
+   "IDS_BADSWIPE_TOO_LEFT": {
+      "message": "Przesuni\u0119cie za daleko w\u00A0lewo"
+   },
+   "IDS_BADSWIPE_TOO_LOW": {
+      "message": "Przesuni\u0119cie za nisko"
+   },
+   "IDS_BADSWIPE_TOO_RIGHT": {
+      "message": "Przesuni\u0119cie za daleko w prawo"
+   },
+   "IDS_BADSWIPE_TOO_SHORT": {
+      "message": "Za kr\u00F3tkie przesuni\u0119cie"
+   },
+   "IDS_BADSWIPE_TOO_SKEWED": {
+      "message": "Krzywe przesuni\u0119cie"
+   },
+   "IDS_BADSWIPE_TOO_SLOW": {
+      "message": "Przesuni\u0119cie za wolne"
+   },
+   "IDS_ENTER_PASSWORD_NOTICE": {
+      "message": "Logowanie przy u\u017Cyciu has\u0142a g\u0142\u00F3wnego."
+   },
+   "IDS_INCORRECT_PASSWORD": {
+      "message": "Has\u0142o jest nieprawid\u0142owe."
+   },
+   "IDS_LEARN_MORE": {
+      "message": "wi\u0119cej informacji"
+   },
+   "IDS_LOGIN_IN": {
+      "message": "Zaloguj"
+   },
+   "IDS_NEVER_FOR_THIS_SITE": {
+      "message": "Nigdy dla tej witryny"
+   },
+   "IDS_NO_FP_FOCUS": {
+      "message": "Weryfikacja przy u\u017Cyciu linii papilarnych zosta\u0142a wstrzymana. Kliknij tutaj, aby kontynuowa\u0107."
+   },
+   "IDS_SAVE_PASSWORD": {
+      "message": "Zapami\u0119taj has\u0142o"
+   },
+   "IDS_SAVE_PASSWORD_NOTICE": {
+      "message": "Czy chcesz, aby technologia SimplePass zapami\u0119ta\u0142a has\u0142o dla tej witryny?"
+   },
+   "IDS_SWIPE_FINGER": {
+      "message": "Aby zalogowa\u0107 si\u0119 przy u\u017Cyciu technologii SimplePass, nale\u017Cy przesun\u0105\u0107 palec na czujniku."
+   },
+   "IDS_TYPE_MASTER_PASSWORD": {
+      "message": "Wpisz has\u0142o g\u0142\u00F3wne"
+   },
+   "IDS_USE_WINDOWS_PASSWORD": {
+      "message": "Lub wpisz has\u0142o systemu Windows"
+   },
+   "editText": {
+      "message": "Edytowanie wizyt\u00F3wki internetowej"
+   },
+   "reportText": {
+      "message": "Zg\u0142o\u015B problem"
+   },
+   "runAppText": {
+      "message": "Otw\u00F3rz SimplePass..."
+   },
+   "storeText": {
+      "message": "App Store"
+   }
+}

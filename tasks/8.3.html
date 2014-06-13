@@ -1,0 +1,87 @@
+﻿<script src="../js/jquery.min.js"></script>
+ <script src="../js/jquery-ui.min.js"></script>
+	   <script src="../js/main.js"></script>
+	   <link href="../css/1.css" rel="stylesheet">
+	   <link href="../css/dop.css" rel="stylesheet">
+ 
+
+	
+
+	<div class="content_block"> 
+		<img class="leftimage" src="../img/8.3.png" width="250" height="250">
+			
+
+			
+	
+		<div class="task_text"> Укы. Кайсы спорт төрләре турында сөйләнә? </div>
+
+		<div class="content_choose"></div>
+            <div id="good"  class="make_mark"> <img src="../img/good.png" width=300 height=250></div>
+			<div id="bad" class="make_mark" ><img src="../img/bad.png" width=300 height=250></div>
+	
+	</div>
+
+	<audio id="textsound" src="../audio/8.3.mp3"> </audio>
+	<audio id="textsound1" src="../audio/8.3.1.mp3"> </audio>
+	<audio id="textsound2" src="../audio/8.3.2.mp3"> </audio>
+	
+		<img src="../img/ico_sound.png" onClick="document.getElementById('textsound').play();">
+		<img src="../img/ico_sound.png" onClick="document.getElementById('textsound1').play();">
+	<img src="../img/ico_sound.png" onClick="document.getElementById('textsound2').play();">
+		
+	
+		
+<script>
+
+var truth = 1;
+var all = ["$1.Илназ бик яхшы йөзә,<br>Ул гел беренче килә.<br>Күнегүләр ясамасаң,<br>Җиңеп булмасын белә.<br>2.Сетка аша туп бәрәбез,<br>Уйнап кына тора туп.<br>Бер яктан икенче якка<br>Атыла туп – тып та тып.<br>3.-Ур-ра, ур-ра, әнә безнең<br>Сәйдәш беренче килә!<br>Кулындагы таякчыгын<br>Беренче булып бирә.<br>Л.Әмирханова"];
+var metka = 0;
+
+all.sort(function() {return .7 - Math.random();});
+
+	var str1='<div class="guess_block" style="width:500px;">';
+			var str2='</div>';
+			var res="";
+		for(var i = 0; i<all.length; i++){
+			if(all[i][0] == "$"){res = res + str1 + all[i].substr(1,99999) + str2;}
+			else{res = res + str1 + all[i] + str2;}
+		}
+		
+		document.getElementsByClassName('content_choose')[0].innerHTML = res;
+
+$(document).ready(function(){
+
+		$(".guess_block").click(function(){
+			//если все верно ответил тогда
+		if(true){
+			
+			//красим
+			this.style.backgroundColor = "#49CC44";
+			// показываем хорошо
+			
+			document.getElementById('good').style.display = "block";
+			setTimeout(function(){document.getElementById('good').style.display = "none";},2000);
+			
+			metka++;
+			
+			// если все правильно то переходим на след задание
+			if(metka  >= truth){
+		
+				
+			}
+		}
+				
+		// если нет то красим в красный
+		else{
+		this.style.backgroundColor = "#EB3B75";
+		
+		document.getElementById('bad').style.display = "block";
+		setTimeout(function(){document.getElementById('bad').style.display = "none";},2000);
+		
+		}
+		
+		});	
+		
+});
+
+</script>

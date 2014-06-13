@@ -1,0 +1,118 @@
+﻿<script src="../js/jquery.min.js"></script>
+ <script src="../js/jquery-ui.min.js"></script>
+	   <script src="../js/main.js"></script>
+	   <script src="list.js"></script>
+  <link href="../css/2.css" rel="stylesheet">
+  <link href="../css/dop.css" rel="stylesheet">
+	 
+<div class="content_block"> 
+
+	<img class="leftimage" src="../img/3.png" width="250" height="200">
+
+
+
+
+
+
+	<div class="task_text">Кирәкле сүзләрне куй. </div>
+	<div class="taskcont"><!-- cont start -->
+	
+	<div class="left_text_one" >
+	<div class="pre_text">Саннар  </div> $
+	
+	<div class="pre_text">?  </div> $
+	<div class="pre_text">?  </div> $
+	<div class="pre_text">сорауларына җавап бирәләр.</div>
+
+
+
+	</div><!-- cont start -->
+
+	<div id="container"></div>
+
+	<div id="good"  class="make_mark"> <img src="../img/good.png" width=300 height=250></div>
+	<div id="bad" class="make_mark" ><img src="../img/bad.png" width=300 height=250></div>
+
+</div>
+
+
+	
+<script>
+
+var currentFileAll = location.href.match(/[^/]+\.html/i)[0];
+var currentFile = currentFileAll.substr(0,currentFileAll.length-5);
+   
+   Object.size = function(obj) {
+    var size = 0, key;
+    for (key in obj) {
+        if (obj.hasOwnProperty(key)) size++;
+    }
+    return size;
+};
+var metka = 0;
+var truth = ["ничә?","ничәнче?","ничәү?"];
+var all = ["кем?", "ничә?", "нәрсә?", "ничәнче?" ,"нишли?","ничәү?"];
+
+var size = all.length;
+var size1 = truth.length;
+ //all.sort(function() {return .7 - Math.random();});
+
+
+
+		// генерируем то что нужно перетащить
+	var str1='<div class="guess_block_one" style="height:25px;width:25px;margin:-3px -3px -3px -3px;" ';
+			var str2='</div>';
+			var res="";
+		for(var i = 0; i< size; i++){
+			res = res + str1 + 'id ="'+i +'">' + all[i] + str2;
+		}
+		document.getElementById('container').innerHTML = res;
+		
+		// генерируем то что 
+	var str11='<div class="empty_place_one" ';
+			var str22='</div>';
+			var res1="";
+		for(var i = 0; i< size1; i++){
+			res1 = res1 + str11 + 'id ="'+'t'+i +'">' +  str22;
+			document.getElementsByClassName('left_text_one')[0].innerHTML = document.getElementsByClassName('left_text_one')[0].innerHTML.replace('$', str11 + 'id ="'+'t'+i +'">' +  str22);
+		}
+		
+
+		
+	$(function(){
+	$( ".guess_block_one" ).draggable({revertDuration:2000,revert: "valid"});
+	
+    $( ".empty_place_one" ).droppable({
+      drop: function( event, ui ) {	
+
+		if(truth.indexOf(document.getElementById(ui.draggable.attr("id")).innerHTML) != -1){
+		
+			$('#'+ui.draggable.attr('id')).draggable({ revert: "invalid"}).draggable( "disable" );
+			//document.getElementById(ui.draggable.attr('id')).style.border = "none";
+			document.getElementById(ui.draggable.attr('id')).style.borderColor = 'transparent';
+			document.getElementById(ui.draggable.attr('id')).style.background = "none";
+				metka ++;
+							document.getElementById('good').style.display = "block";
+			setTimeout(function(){document.getElementById('good').style.display = "none";},2000);
+			
+				if(metka  >= size1){
+					if(list[currentFile]) {
+						setTimeout(function(){location.href = list[currentFile]+".html";},5000);document.getElementById('good').style.display = "block";
+					}
+				}
+			}
+			 else{document.getElementById('bad').style.display = "block";setTimeout(function(){document.getElementById('bad').style.display = "none";},2000);}
+      }
+    });
+	
+	$( "body" ).droppable({
+      drop: function( event, ui ) {
+		
+	  }
+	});
+  });
+   
+
+// Get the size of an object
+
+  </script>

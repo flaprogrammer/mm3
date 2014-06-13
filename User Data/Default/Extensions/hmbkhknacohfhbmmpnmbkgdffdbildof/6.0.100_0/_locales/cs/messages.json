@@ -1,0 +1,77 @@
+{
+   "IDS_BADSWIPE_LOW_QUALITY": {
+      "message": "Pohyb prstem byl nespr\u00E1vn\u00FD, p\u0159\u00EDli\u0161 n\u00EDzk\u00E1 kvalita."
+   },
+   "IDS_BADSWIPE_NO_MATCH": {
+      "message": "Nenalezena \u017E\u00E1dn\u00E1 shoda."
+   },
+   "IDS_BADSWIPE_TOO_FAST": {
+      "message": "Pohyb prstem byl p\u0159\u00EDli\u0161 rychl\u00FD."
+   },
+   "IDS_BADSWIPE_TOO_HIGH": {
+      "message": "Pohyb prstem byl proveden p\u0159\u00EDli\u0161 vysoko."
+   },
+   "IDS_BADSWIPE_TOO_LEFT": {
+      "message": "Pohyb prstem byl proveden p\u0159\u00EDli\u0161 vlevo."
+   },
+   "IDS_BADSWIPE_TOO_LOW": {
+      "message": "Pohyb prstem byl proveden p\u0159\u00EDli\u0161 n\u00EDzko."
+   },
+   "IDS_BADSWIPE_TOO_RIGHT": {
+      "message": "Pohyb prstem byl proveden p\u0159\u00EDli\u0161 vpravo."
+   },
+   "IDS_BADSWIPE_TOO_SHORT": {
+      "message": "Pohyb prstem byl p\u0159\u00EDli\u0161 kr\u00E1tk\u00FD."
+   },
+   "IDS_BADSWIPE_TOO_SKEWED": {
+      "message": "Pohyb prstem byl p\u0159\u00EDli\u0161 \u0161ikm\u00FD."
+   },
+   "IDS_BADSWIPE_TOO_SLOW": {
+      "message": "Pohyb prstem byl p\u0159\u00EDli\u0161 pomal\u00FD."
+   },
+   "IDS_ENTER_PASSWORD_NOTICE": {
+      "message": "P\u0159ihlaste se pomoc\u00ED hlavn\u00EDho hesla."
+   },
+   "IDS_INCORRECT_PASSWORD": {
+      "message": "Va\u0161e heslo je nespr\u00E1vn\u00E9."
+   },
+   "IDS_LEARN_MORE": {
+      "message": "dal\u0161\u00ED informace"
+   },
+   "IDS_LOGIN_IN": {
+      "message": "P\u0159ihlaste se"
+   },
+   "IDS_NEVER_FOR_THIS_SITE": {
+      "message": "Nikdy pro tento web"
+   },
+   "IDS_NO_FP_FOCUS": {
+      "message": "Ov\u011Bv\u00E1n\u00ED otisku prstu bylo pozastaveno. Pokra\u010Dujte klepnut\u00EDm sem."
+   },
+   "IDS_SAVE_PASSWORD": {
+      "message": "Zapamatovat heslo"
+   },
+   "IDS_SAVE_PASSWORD_NOTICE": {
+      "message": "P\u0159ejete si, aby si aplikace SimplePass zapamatovala heslo pro tento web?"
+   },
+   "IDS_SWIPE_FINGER": {
+      "message": "Chcete-li se p\u0159ihl\u00E1sit prost\u0159ednictv\u00EDm aplikace SimplePass, p\u0159eje\u010Fte prstem p\u0159es senzor."
+   },
+   "IDS_TYPE_MASTER_PASSWORD": {
+      "message": "Zadejte hlavn\u00ED heslo"
+   },
+   "IDS_USE_WINDOWS_PASSWORD": {
+      "message": "Nebo zadejte heslo k syst\u00E9mu Windows"
+   },
+   "editText": {
+      "message": "Upravit webovou vizitku"
+   },
+   "reportText": {
+      "message": "Ohl\u00E1sit probl\u00E9m"
+   },
+   "runAppText": {
+      "message": "Otev\u0159\u00EDt SimplePass..."
+   },
+   "storeText": {
+      "message": "App Store"
+   }
+}

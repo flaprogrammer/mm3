@@ -1,0 +1,88 @@
+﻿<script src="../js/jquery.min.js"></script>
+ <script src="../js/jquery-ui.min.js"></script>
+	   <script src="../js/main.js"></script>
+	   <script src="list.js"></script>
+	   <link href="../css/1.css" rel="stylesheet">
+	   <link href="../css/dop.css" rel="stylesheet">
+	 
+
+	
+	<div class="content_block">		
+	
+		<div class="task_text"> Күп мәгънәле сүзләрне билгелә. </div>
+	
+
+		<div class="content_choose"></div>
+            <div id="good"  class="make_mark"> <img src="../img/good.png" width=300 height=250></div>
+			<div id="bad" class="make_mark" ><img src="../img/bad.png" width=300 height=250></div>
+	
+	</div>
+
+
+	
+		
+
+
+
+
+
+
+
+
+
+<script>
+
+var currentFileAll = location.href.match(/[^/]+\.html/i)[0];
+var currentFile = currentFileAll.substr(0,currentFileAll.length-5);
+
+var truth = 0;
+var all = ["Кеше","$Бит","Кыз"];
+for(var i=0; i<all.length; i++) {
+	if (all[i][0]=="$") truth++;
+}
+var metka = 0;
+
+all.sort(function() {return .7 - Math.random();});
+
+	var str1='<div class="guess_block">';
+			var str2='</div>';
+			var res="";
+		for(var i = 0; i<all.length; i++){
+			if(all[i][0] == "$"){res = res + str1 + all[i].substr(1,99999) + str2;}
+			else{res = res + str1 + all[i] + str2;}
+		}
+		
+		document.getElementsByClassName('content_choose')[0].innerHTML = res;
+
+$(document).ready(function(){
+
+		$(".guess_block").click(function(){
+			//если все верно ответил тогда
+		if(all.indexOf("$"+this.innerHTML) != -1){
+			
+			//красим
+			this.style.backgroundColor = "#49CC44";
+			// показываем хорошо
+			document.getElementById('good').style.display = "block";
+			setTimeout(function(){document.getElementById('good').style.display = "none";},2000);
+			metka++;
+			
+			// если все правильно то переходим на след задание
+			if(metka  >= truth){		
+				if(list[currentFile]) {
+						setTimeout(function(){location.href = list[currentFile]+".html";},5000);document.getElementById('good').style.display = "block";
+				}	
+			}
+		}
+				
+		// если нет то красим в красный
+		else{
+		this.style.backgroundColor = "#EB3B75";
+					document.getElementById('bad').style.display = "block";
+			setTimeout(function(){document.getElementById('bad').style.display = "none";},2000);
+		}
+		
+		});	
+		
+});
+</script>

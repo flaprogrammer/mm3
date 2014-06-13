@@ -1,0 +1,77 @@
+{
+   "IDS_BADSWIPE_LOW_QUALITY": {
+      "message": "Passou o dedo com baixa qualidade."
+   },
+   "IDS_BADSWIPE_NO_MATCH": {
+      "message": "Sem correspond\u00EAncia."
+   },
+   "IDS_BADSWIPE_TOO_FAST": {
+      "message": "Passou o dedo demasiado r\u00E1pido."
+   },
+   "IDS_BADSWIPE_TOO_HIGH": {
+      "message": "Passou o dedo demasiado acima."
+   },
+   "IDS_BADSWIPE_TOO_LEFT": {
+      "message": "Passou o dedo demasiado \u00E0 esquerda."
+   },
+   "IDS_BADSWIPE_TOO_LOW": {
+      "message": "Passou o dedo demasiado abaixo."
+   },
+   "IDS_BADSWIPE_TOO_RIGHT": {
+      "message": "Passou o dedo demasiado \u00E0 direita."
+   },
+   "IDS_BADSWIPE_TOO_SHORT": {
+      "message": "Passou o dedo por pouco tempo."
+   },
+   "IDS_BADSWIPE_TOO_SKEWED": {
+      "message": "Passou o dedo demasiado enviesado."
+   },
+   "IDS_BADSWIPE_TOO_SLOW": {
+      "message": "Passou o dedo demasiado devagar."
+   },
+   "IDS_ENTER_PASSWORD_NOTICE": {
+      "message": "Inicie sess\u00E3o com a sua palavra-passe mestra."
+   },
+   "IDS_INCORRECT_PASSWORD": {
+      "message": "A sua palavra-passe est\u00E1 incorrecta."
+   },
+   "IDS_LEARN_MORE": {
+      "message": "ler mais"
+   },
+   "IDS_LOGIN_IN": {
+      "message": "Iniciar a sess\u00E3o"
+   },
+   "IDS_NEVER_FOR_THIS_SITE": {
+      "message": "Nunca para este site"
+   },
+   "IDS_NO_FP_FOCUS": {
+      "message": "Pausa na verifica\u00E7\u00E3o da impress\u00E3o digital. Clique aqui para continuar."
+   },
+   "IDS_SAVE_PASSWORD": {
+      "message": "Lembrar a palavra-passe"
+   },
+   "IDS_SAVE_PASSWORD_NOTICE": {
+      "message": "Pretende que o SimplePass memorize a sua palavra-passe para este site?"
+   },
+   "IDS_SWIPE_FINGER": {
+      "message": "Passe o seu dedo sobre o sensor para iniciar a sess\u00E3o com o SimplePass."
+   },
+   "IDS_TYPE_MASTER_PASSWORD": {
+      "message": "Escrever a palavra-passe mestra"
+   },
+   "IDS_USE_WINDOWS_PASSWORD": {
+      "message": "Ou escrever a palavra-passe do Windows"
+   },
+   "editText": {
+      "message": "Editar Web Card"
+   },
+   "reportText": {
+      "message": "Reportar Problema"
+   },
+   "runAppText": {
+      "message": "Abrir o SimplePass..."
+   },
+   "storeText": {
+      "message": "App Store"
+   }
+}
