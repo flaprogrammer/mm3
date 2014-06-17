@@ -10,9 +10,7 @@
 	<div class="content_block">		
 	
 	
-		<div class="task_text">Кагыйдәнең төшеп калган сүзләрен куй.<br><br>
-	Сорау җөмләдә ... кебек сорау алмашлыклары кулланыла.
-</div>
+		<div class="task_text">Туры килгән кушымчаларны сайлап ал.<br> Баш...</div>
 
 		<div class="content_choose"></div>
             <div id="good"  class="make_mark"> <img src="../img/good.png" width=300 height=250></div>
@@ -29,7 +27,7 @@ var currentFileAll = location.href.match(/[^/]+\.html/i)[0];
 var currentFile = currentFileAll.substr(0,currentFileAll.length-5);
 
 var truth = 0;
-var all = ["$кем?", "$кайда?", "китте", "$ник?", "зәңгәр", "биш", "$нинди?", "ул", "алар"];
+var all = ["$-лы", "$-сыз", "$-таш", "-ле", "-сез", "-даш"];
 for(var i=0; i<all.length; i++) {
 	if (all[i][0]=="$") truth++;
 }
